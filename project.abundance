@@ -10,7 +10,7 @@
       "ioValue": 10
     },
     {
-      "name": "ShelfSpaceHeight",
+      "name": "ShelfNumber",
       "ioValue": 10
     },
     {
@@ -23,6 +23,18 @@
     },
     {
       "name": "TotalWidth",
+      "ioValue": 10
+    },
+    {
+      "name": "BaseHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "WoodThick",
+      "ioValue": 10
+    },
+    {
+      "name": "TopHeight",
       "ioValue": 10
     }
   ],
@@ -52,7 +64,7 @@
       "x": 0.01815,
       "y": 0.176,
       "uniqueID": "id-22",
-      "name": "ShelfSpaceHeight"
+      "name": "ShelfNumber"
     },
     {
       "atomType": "Input",
@@ -74,6 +86,27 @@
       "y": 0.374,
       "uniqueID": "id-31",
       "name": "TotalWidth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.44,
+      "uniqueID": "id-34",
+      "name": "BaseHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-37",
+      "name": "WoodThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.5720000000000001,
+      "uniqueID": "id-40",
+      "name": "TopHeight"
     }
   ],
   "allConnectors": [],
