@@ -107,6 +107,21 @@
       "y": 0.5720000000000001,
       "uniqueID": "id-40",
       "name": "TopHeight"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.12135922330097088,
+      "y": 0.3187066974595843,
+      "uniqueID": "id-43",
+      "name": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber",
+      "currentEquation": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.15480043149946063,
+      "y": 0.5219399538106235,
+      "uniqueID": "id-47",
+      "value": 10
     }
   ],
   "allConnectors": [],
