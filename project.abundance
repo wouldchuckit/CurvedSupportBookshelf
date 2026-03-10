@@ -4,6 +4,28 @@
   "y": 0,
   "uniqueID": "id-12",
   "name": "CurvedSupportBookshelf",
+  "ioValues": [
+    {
+      "name": "CurveSupportWidth",
+      "ioValue": 10
+    },
+    {
+      "name": "ShelfSpaceHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "TotalHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "TotalDepth",
+      "ioValue": 10
+    },
+    {
+      "name": "TotalWidth",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -17,6 +39,41 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.10999999999999999,
+      "uniqueID": "id-19",
+      "name": "CurveSupportWidth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.176,
+      "uniqueID": "id-22",
+      "name": "ShelfSpaceHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.242,
+      "uniqueID": "id-25",
+      "name": "TotalHeight"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.308,
+      "uniqueID": "id-28",
+      "name": "TotalDepth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.374,
+      "uniqueID": "id-31",
+      "name": "TotalWidth"
     }
   ],
   "allConnectors": [],
