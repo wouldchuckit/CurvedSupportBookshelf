@@ -55,49 +55,49 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.10999999999999999,
+      "y": 0.18475750577367206,
       "uniqueID": "id-19",
       "name": "CurveSupportWidth"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.176,
+      "y": 0.2517321016166282,
       "uniqueID": "id-22",
       "name": "ShelfNumber"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.242,
+      "y": 0.3140877598152425,
       "uniqueID": "id-25",
       "name": "TotalHeight"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.308,
+      "y": 0.3833718244803695,
       "uniqueID": "id-28",
       "name": "TotalDepth"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.374,
+      "y": 0.4457274826789838,
       "uniqueID": "id-31",
       "name": "TotalWidth"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.44,
+      "y": 0.5080831408775981,
       "uniqueID": "id-34",
       "name": "BaseHeight"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.506,
+      "y": 0.12702078521939952,
       "uniqueID": "id-37",
       "name": "WoodThick"
     },
