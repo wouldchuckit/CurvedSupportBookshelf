@@ -7,35 +7,39 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 10
+      "ioValue": 300,
+      "currentEquation": "300"
     },
     {
       "name": "ShelfNumber",
-      "ioValue": 10
+      "ioValue": 4,
+      "currentEquation": "4"
     },
     {
       "name": "TotalHeight",
-      "ioValue": 10
+      "ioValue": 2286,
+      "currentEquation": "2286"
     },
     {
       "name": "TotalDepth",
-      "ioValue": 10
+      "ioValue": 600
     },
     {
       "name": "TotalWidth",
-      "ioValue": 10
+      "ioValue": 1000
     },
     {
       "name": "BaseHeight",
-      "ioValue": 10
+      "ioValue": 100,
+      "currentEquation": "100"
     },
     {
       "name": "WoodThick",
-      "ioValue": 10
+      "ioValue": 19.05
     },
     {
       "name": "TopHeight",
-      "ioValue": 10
+      "ioValue": 100
     }
   ],
   "topLevel": true,
@@ -115,13 +119,6 @@
       "uniqueID": "id-43",
       "name": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber",
       "currentEquation": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber"
-    },
-    {
-      "atomType": "Constant",
-      "x": 0.15480043149946063,
-      "y": 0.5219399538106235,
-      "uniqueID": "id-47",
-      "value": 10
     }
   ],
   "allConnectors": [],
