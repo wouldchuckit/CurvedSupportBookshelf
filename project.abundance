@@ -110,8 +110,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.018338727076591153,
-      "y": 0.6859122401847575,
+      "x": 0.041531823085221145,
+      "y": 0.6951501154734411,
       "uniqueID": "id-43",
       "name": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber",
       "currentEquation": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber"
