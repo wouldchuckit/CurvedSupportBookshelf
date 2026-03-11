@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 300,
-      "currentEquation": "300"
+      "ioValue": 300
     },
     {
       "name": "ShelfNumber",
@@ -116,6 +115,36 @@
       "uniqueID": "id-43",
       "name": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber",
       "currentEquation": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.16019417475728157,
+      "y": 0.3810623556581986,
+      "uniqueID": "id-332",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height",
+      "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.11326860841423947,
+      "y": 0.9122401847575057,
+      "uniqueID": "id-334",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf",
+      "global": true
     },
     {
       "atomType": "Molecule",
@@ -242,12 +271,12 @@
           "name": "atan(y/x)",
           "ioValues": [
             {
-              "name": "x",
-              "ioValue": 300
-            },
-            {
               "name": "y",
               "ioValue": 516.7375
+            },
+            {
+              "name": "x",
+              "ioValue": 300
             }
           ],
           "currentEquation": "atan(y/x)"
@@ -694,8 +723,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 1,
-              "currentEquation": "1"
+              "ioValue": 1
             }
           ]
         },
@@ -1102,36 +1130,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.16019417475728157,
-      "y": 0.3810623556581986,
-      "uniqueID": "id-332",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height",
-      "global": true
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.11326860841423947,
-      "y": 0.9122401847575057,
-      "uniqueID": "id-334",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf",
-      "global": true
     }
   ],
   "allConnectors": [
