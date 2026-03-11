@@ -492,8 +492,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4433656957928803,
-          "y": 0.838337182448037,
+          "x": 0.4492988133764833,
+          "y": 0.8198614318706698,
           "uniqueID": "id-247",
           "ioValues": [
             {
@@ -502,7 +502,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -300
             },
             {
               "name": "yDist",
@@ -563,7 +563,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "intersect-move-circle-261.2573516276041--338.7426483723959-516.7375-0-move-move-rectangle-600-522.5147032552082-0--261.2573516276041-0-0-516.7375-0",
+                "geometry": "intersect-move-circle-261.2573516276041--338.7426483723959-516.7375-0-move-move-rectangle-600-522.5147032552082-0--261.2573516276041-0--300-516.7375-0",
                 "tags": [],
                 "color": "#aad7f2",
                 "plane": {
@@ -728,6 +728,20 @@
           ],
           "readMeText": "Curve made of two tangent circles for shelf supports",
           "global": true
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.20388349514563106,
+          "y": 0.8960739030023095,
+          "uniqueID": "id-305",
+          "name": "-x/2",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 600
+            }
+          ],
+          "currentEquation": "-x/2"
         }
       ],
       "allConnectors": [
@@ -750,6 +764,11 @@
           "ap2Name": "x length",
           "ap1ID": "id-71",
           "ap2ID": "id-221"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-71",
+          "ap2ID": "id-305"
         },
         {
           "ap2Name": "y",
@@ -930,6 +949,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-298",
           "ap2ID": "id-290"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-305",
+          "ap2ID": "id-247"
         }
       ],
       "fileTypeVersion": 1
