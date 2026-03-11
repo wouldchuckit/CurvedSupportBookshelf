@@ -10,7 +10,7 @@
 
 Curve made of two tangent circles for shelf supports 
 
-![readme](/readmeid-303.svg?v=modca5)
+![readme](/readmeid-303.svg?v=nrmpk4)
 
 
 
@@ -22,7 +22,7 @@ Tis is also a patch for the edge when it gets too thin to a single point.
 
 This is single point patch to cover the inflection point where the two circles meet. The Circles worked independently but when they were both trying to act on the same point it crashed 
 
-![readme](/readmeid-301.svg?v=icrq5d)
+![readme](/readmeid-301.svg?v=tnr64i)
 
 
 
