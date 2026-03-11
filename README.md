@@ -8,7 +8,7 @@
 
  ### Curve
 
-Curve made of two tangent circles for shelf supports 
+Curve made of two tangent circles for shelf supports. Functions until the length is about 3 times the height.  
 
 ![readme](/readmeid-303.svg?v=nvaexgu)
 
