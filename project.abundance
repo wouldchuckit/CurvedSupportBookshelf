@@ -322,7 +322,7 @@
           "x": 0.04530744336569579,
           "y": 0.48729792147806006,
           "uniqueID": "id-147",
-          "name": "2*sqrt(x^2 + y^2)/ (4 * cos(t))",
+          "name": "sqrt(x^2 + y^2)/ (4 * cos(t))",
           "ioValues": [
             {
               "name": "x",
@@ -337,13 +337,27 @@
               "ioValue": 30.137974907892307
             }
           ],
-          "currentEquation": "2*sqrt(x^2 + y^2)/ (4 * cos(t))"
+          "currentEquation": "sqrt(x^2 + y^2)/ (4 * cos(t))"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04800431499460626,
+          "y": 0.6166281755196305,
+          "uniqueID": "id-155",
+          "name": "r * 2",
+          "ioValues": [
+            {
+              "name": "r",
+              "ioValue": 517.4551287147822
+            }
+          ],
+          "currentEquation": "r * 2"
         },
         {
           "atomType": "Circle",
-          "x": 0.19039913700107874,
-          "y": 0.6374133949191686,
-          "uniqueID": "id-152",
+          "x": 0.16666666666666666,
+          "y": 0.535796766743649,
+          "uniqueID": "id-160",
           "ioValues": [
             {
               "name": "diameter",
@@ -414,9 +428,14 @@
           "ap2ID": "id-66"
         },
         {
-          "ap2Name": "diameter",
+          "ap2Name": "r",
           "ap1ID": "id-147",
-          "ap2ID": "id-152"
+          "ap2ID": "id-155"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-155",
+          "ap2ID": "id-160"
         }
       ],
       "fileTypeVersion": 1
