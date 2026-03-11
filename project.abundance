@@ -110,14 +110,89 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.13106796116504854,
-      "y": 0.3140877598152425,
+      "x": 0.018338727076591153,
+      "y": 0.6859122401847575,
       "uniqueID": "id-43",
       "name": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber",
       "currentEquation": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.10841423948220064,
+      "y": 0.20323325635103925,
+      "uniqueID": "id-64",
+      "name": "Curve",
+      "ioValues": [
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        },
+        {
+          "name": "CurveWidth",
+          "ioValue": 300
+        },
+        {
+          "name": "CurveHeight",
+          "ioValue": 516.7375
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-66",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-68",
+          "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-71",
+          "name": "CurveWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-74",
+          "name": "CurveHeight"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "CurveWidth",
+      "ap1ID": "id-19",
+      "ap2ID": "id-64"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-64"
+    },
+    {
+      "ap2Name": "CurveHeight",
+      "ap1ID": "id-43",
+      "ap2ID": "id-64"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
