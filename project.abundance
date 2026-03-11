@@ -532,8 +532,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5846817691477886,
-          "y": 0.6628175519630485,
+          "x": 0.5749730312837109,
+          "y": 0.7621247113163973,
           "uniqueID": "id-257",
           "ioValues": [
             {
@@ -617,8 +617,9 @@
             {
               "name": "Shape 5",
               "ioValue": {
-                "geometry": "cut-cut-move-rectangle-100-516.7375--50-258.36875-0-rotate-move-rectangle-100-1033.475--50-516.7375-0-0-0-10.952597398331903-move-circle-692.5441097656252--692.5441097656252-0-0",
-                "dimension": "2D",
+                "geometry": "cut-fuse-cut-move-rectangle-100-516.7375--50-258.36875-0-rotate-move-rectangle-100-1033.475--50-516.7375-0-0-0-10.952597398331903-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-692.5441097656252--692.5441097656252-0-0",
+                "tags": [],
+                "bom": [],
                 "plane": {
                   "origin": [
                     0,
@@ -637,35 +638,7 @@
                   ]
                 },
                 "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 6",
-              "ioValue": {
-                "geometry": "move-rectangle-10-516.7375-4.999-258.36875-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
+                "dimension": "2D"
               }
             }
           ],
@@ -673,8 +646,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.7454153182308522,
-          "y": 0.5103926096997691,
+          "x": 0.7535059331175836,
+          "y": 0.48267898383371827,
           "uniqueID": "id-277",
           "ioValues": [
             {
@@ -772,8 +745,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.552319309600863,
-          "y": 0.8937644341801385,
+          "x": 0.5636461704422869,
+          "y": 0.4965357967667437,
           "uniqueID": "id-313",
           "ioValues": [
             {
@@ -788,8 +761,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6084142394822006,
-          "y": 0.9006928406466512,
+          "x": 0.604638619201726,
+          "y": 0.489607390300231,
           "uniqueID": "id-317",
           "ioValues": [
             {
@@ -811,6 +784,84 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.6769147788565264,
+          "y": 0.48267898383371827,
+          "uniqueID": "id-325",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "cut-move-rectangle-100-516.7375--50-258.36875-0-rotate-move-rectangle-100-1033.475--50-516.7375-0-0-0-10.952597398331903",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "move-rectangle-10-516.7375-4.999-258.36875-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.6245954692556634,
+          "y": 0.581986143187067,
+          "uniqueID": "id-330",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Tis is also a patch for the edge when it gets too thin to a single point. ",
+          "global": true
         }
       ],
       "allConnectors": [
@@ -900,9 +951,9 @@
           "ap2ID": "id-143"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-143",
-          "ap2ID": "id-277"
+          "ap2ID": "id-325"
         },
         {
           "ap2Name": "r",
@@ -1035,9 +1086,19 @@
           "ap2ID": "id-317"
         },
         {
-          "ap2Name": "Shape 6",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-317",
-          "ap2ID": "id-272"
+          "ap2ID": "id-325"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-317",
+          "ap2ID": "id-330"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-325",
+          "ap2ID": "id-277"
         }
       ],
       "fileTypeVersion": 1

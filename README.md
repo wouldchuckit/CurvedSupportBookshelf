@@ -14,6 +14,12 @@ Curve made of two tangent circles for shelf supports
 
 
 
+Tis is also a patch for the edge when it gets too thin to a single point.  
+
+![readme](/readmeid-330.svg?v=nmzfcjk)
+
+
+
 This is single point patch to cover the inflection point where the two circles meet. The Circles worked independently but when they were both trying to act on the same point it crashed 
 
 ![readme](/readmeid-301.svg?v=cwu8eq)
