@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 1000,
-      "currentEquation": "1000"
+      "ioValue": 1500,
+      "currentEquation": "1500"
     },
     {
       "name": "ShelfNumber",
@@ -130,7 +130,7 @@
         },
         {
           "name": "CurveWidth",
-          "ioValue": 1000
+          "ioValue": 1500
         },
         {
           "name": "CurveHeight",
@@ -180,7 +180,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 1000,
+              "ioValue": 1500,
               "currentEquation": "CurveWidth"
             },
             {
@@ -198,7 +198,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 1000,
+              "ioValue": 1500,
               "currentEquation": "CurveWidth"
             },
             {
@@ -220,7 +220,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -500,
+              "ioValue": -750,
               "currentEquation": "-CurveWidth/2"
             },
             {
@@ -243,7 +243,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 1000
+              "ioValue": 1500
             },
             {
               "name": "y",
@@ -264,7 +264,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -500,
+              "ioValue": -750,
               "currentEquation": "-CurveWidth/2"
             },
             {
@@ -298,7 +298,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 62.67290545337106
+              "ioValue": 70.99159716176096
             }
           ]
         },
@@ -327,7 +327,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 1000
+              "ioValue": 1500
             },
             {
               "name": "y",
@@ -335,7 +335,7 @@
             },
             {
               "name": "t",
-              "ioValue": 0.4769477748424621
+              "ioValue": 0.3317592150727063
             }
           ],
           "currentEquation": "sqrt(x^2 + y^2)/ (4 * cos(t))"
@@ -349,7 +349,7 @@
           "ioValues": [
             {
               "name": "r",
-              "ioValue": 316.7544109765625
+              "ioValue": 419.5029406510417
             }
           ],
           "currentEquation": "r * 2"
@@ -370,7 +370,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -316.7544109765625
+              "ioValue": -419.5029406510417
             },
             {
               "name": "zDist",
@@ -387,7 +387,7 @@
           "ioValues": [
             {
               "name": "r",
-              "ioValue": 316.7544109765625
+              "ioValue": 419.5029406510417
             }
           ],
           "currentEquation": "-r"
@@ -404,7 +404,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -683.2455890234376
+              "ioValue": -1080.4970593489584
             },
             {
               "name": "yDist",
@@ -425,11 +425,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 1000
+              "ioValue": 1500
             },
             {
               "name": "r",
-              "ioValue": 316.7544109765625
+              "ioValue": 419.5029406510417
             }
           ],
           "currentEquation": "-x + r"
@@ -443,7 +443,7 @@
           "ioValues": [
             {
               "name": "t",
-              "ioValue": 27.327094546628942
+              "ioValue": 19.008402838239036
             }
           ],
           "currentEquation": "90 - t"
@@ -457,7 +457,7 @@
           "ioValues": [
             {
               "name": "rad",
-              "ioValue": 0.4769477748424621
+              "ioValue": 0.3317592150727063
             }
           ],
           "currentEquation": "rad * 180/pi"
@@ -470,7 +470,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 633.508821953125
+              "ioValue": 839.0058813020834
             }
           ]
         },
@@ -482,11 +482,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 1000
+              "ioValue": 1500
             },
             {
               "name": "y length",
-              "ioValue": 633.508821953125
+              "ioValue": 839.0058813020834
             }
           ]
         },
@@ -502,7 +502,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -500
+              "ioValue": -750
             },
             {
               "name": "yDist",
@@ -542,7 +542,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -316.7544109765625
+              "ioValue": -419.5029406510417
             },
             {
               "name": "yDist",
@@ -563,7 +563,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "intersect-move-circle-316.7544109765625--683.2455890234376-516.7375-0-move-move-rectangle-1000-633.508821953125-0--316.7544109765625-0--500-516.7375-0",
+                "geometry": "intersect-move-circle-419.5029406510417--1080.4970593489584-516.7375-0-move-move-rectangle-1500-839.0058813020834-0--419.5029406510417-0--750-516.7375-0",
                 "tags": [],
                 "color": "#aad7f2",
                 "plane": {
@@ -590,7 +590,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-0.5--500-258.36875-0",
+                "geometry": "move-circle-0.5--750-258.36875-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -617,7 +617,7 @@
             {
               "name": "Shape 5",
               "ioValue": {
-                "geometry": "cut-fuse-cut-move-rectangle-1000-516.7375--500-258.36875-0-rotate-move-rectangle-1000-2583.6875--500-516.7375-0-0-0-62.67290545337106-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-316.7544109765625--316.7544109765625-0-0",
+                "geometry": "cut-fuse-cut-move-rectangle-1500-516.7375--750-258.36875-0-rotate-move-rectangle-1500-2583.6875--750-516.7375-0-0-0-70.99159716176096-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-419.5029406510417--419.5029406510417-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -672,7 +672,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -500,
+              "ioValue": -750,
               "currentEquation": "-CurveWidth/2"
             },
             {
@@ -738,7 +738,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 1000
+              "ioValue": 1500
             }
           ],
           "currentEquation": "-x/2"
@@ -794,7 +794,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-move-rectangle-1000-516.7375--500-258.36875-0-rotate-move-rectangle-1000-2583.6875--500-516.7375-0-0-0-62.67290545337106",
+                "geometry": "cut-move-rectangle-1500-516.7375--750-258.36875-0-rotate-move-rectangle-1500-2583.6875--750-516.7375-0-0-0-70.99159716176096",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -1102,6 +1102,21 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.17475728155339806,
+      "y": 0.4387990762124711,
+      "uniqueID": "id-332",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -1119,6 +1134,11 @@
       "ap2Name": "CurveHeight",
       "ap1ID": "id-43",
       "ap2ID": "id-64"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-64",
+      "ap2ID": "id-332"
     }
   ],
   "unitsKey": "MM",
