@@ -235,8 +235,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.029126213592233007,
-          "y": 0.3787528868360277,
+          "x": 0.04422869471413161,
+          "y": 0.3625866050808314,
           "uniqueID": "id-127",
           "name": "atan(x/y) *180/pi",
           "ioValues": [
@@ -316,6 +316,40 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04530744336569579,
+          "y": 0.48729792147806006,
+          "uniqueID": "id-147",
+          "name": "2*sqrt(x^2 + y^2)/ (4 * cos(t))",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 300
+            },
+            {
+              "name": "y",
+              "ioValue": 516.7375
+            },
+            {
+              "name": "t",
+              "ioValue": 30.137974907892307
+            }
+          ],
+          "currentEquation": "2*sqrt(x^2 + y^2)/ (4 * cos(t))"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.19039913700107874,
+          "y": 0.6374133949191686,
+          "uniqueID": "id-152",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 1034.9102574295644
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -325,9 +359,19 @@
           "ap2ID": "id-127"
         },
         {
+          "ap2Name": "x",
+          "ap1ID": "id-71",
+          "ap2ID": "id-147"
+        },
+        {
           "ap2Name": "y",
           "ap1ID": "id-74",
           "ap2ID": "id-127"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-74",
+          "ap2ID": "id-147"
         },
         {
           "ap2Name": "geometry",
@@ -350,6 +394,11 @@
           "ap2ID": "id-137"
         },
         {
+          "ap2Name": "t",
+          "ap1ID": "id-127",
+          "ap2ID": "id-147"
+        },
+        {
           "ap2Name": "geometry1",
           "ap1ID": "id-131",
           "ap2ID": "id-143"
@@ -363,6 +412,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-143",
           "ap2ID": "id-66"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-147",
+          "ap2ID": "id-152"
         }
       ],
       "fileTypeVersion": 1
