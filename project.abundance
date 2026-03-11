@@ -170,6 +170,24 @@
           "y": 0.242,
           "uniqueID": "id-74",
           "name": "CurveHeight"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.13700107874865156,
+          "y": 0.2424942263279446,
+          "uniqueID": "id-77",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 300,
+              "currentEquation": "CurveWidth"
+            },
+            {
+              "name": "y length",
+              "ioValue": 516.7375,
+              "currentEquation": "CurveHeight"
+            }
+          ]
         }
       ],
       "allConnectors": [],
