@@ -219,11 +219,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -150,
+              "currentEquation": "-CurveWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 516.7375,
+              "currentEquation": "CurveHeight"
             },
             {
               "name": "zDist",
@@ -233,10 +235,10 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.0895361380798274,
-          "y": 0.6720554272517321,
+          "x": 0.029126213592233007,
+          "y": 0.3787528868360277,
           "uniqueID": "id-127",
-          "name": "atan(y/x) *180/pi",
+          "name": "atan(x/y) *180/pi",
           "ioValues": [
             {
               "name": "x",
@@ -247,7 +249,7 @@
               "ioValue": 516.7375
             }
           ],
-          "currentEquation": "atan(y/x) *180/pi"
+          "currentEquation": "atan(x/y) *180/pi"
         },
         {
           "atomType": "Move",
@@ -277,8 +279,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.19093851132686082,
-          "y": 0.3464203233256351,
+          "x": 0.19795037756202805,
+          "y": 0.3279445727482679,
           "uniqueID": "id-137",
           "ioValues": [
             {
@@ -295,7 +297,23 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 0
+              "ioValue": 30.137974907892307
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.2761596548004315,
+          "y": 0.2632794457274827,
+          "uniqueID": "id-143",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         }
@@ -325,6 +343,26 @@
           "ap2Name": "geometry",
           "ap1ID": "id-85",
           "ap2ID": "id-137"
+        },
+        {
+          "ap2Name": "z-axis degrees",
+          "ap1ID": "id-127",
+          "ap2ID": "id-137"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-131",
+          "ap2ID": "id-143"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-137",
+          "ap2ID": "id-143"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-143",
+          "ap2ID": "id-66"
         }
       ],
       "fileTypeVersion": 1
