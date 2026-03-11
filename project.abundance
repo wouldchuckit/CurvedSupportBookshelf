@@ -191,8 +191,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.0965480043149946,
-          "y": 0.3302540415704388,
+          "x": 0.11272923408845739,
+          "y": 0.325635103926097,
           "uniqueID": "id-81",
           "ioValues": [
             {
@@ -235,10 +235,10 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.04422869471413161,
-          "y": 0.3625866050808314,
+          "x": 0.052319309600863,
+          "y": 0.34411085450346424,
           "uniqueID": "id-127",
-          "name": "atan(x/y) *180/pi",
+          "name": "atan(y/x) *180/pi",
           "ioValues": [
             {
               "name": "x",
@@ -249,7 +249,7 @@
               "ioValue": 516.7375
             }
           ],
-          "currentEquation": "atan(x/y) *180/pi"
+          "currentEquation": "atan(y/x) *180/pi"
         },
         {
           "atomType": "Move",
@@ -297,7 +297,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 30.137974907892307
+              "ioValue": 30.137974907892293
             }
           ]
         },
@@ -319,8 +319,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.04530744336569579,
-          "y": 0.48729792147806006,
+          "x": 0.05339805825242719,
+          "y": 0.45958429561200925,
           "uniqueID": "id-147",
           "name": "sqrt(x^2 + y^2)/ (4 * cos(t))",
           "ioValues": [
@@ -334,21 +334,21 @@
             },
             {
               "name": "t",
-              "ioValue": 30.137974907892307
+              "ioValue": 59.86202509210771
             }
           ],
           "currentEquation": "sqrt(x^2 + y^2)/ (4 * cos(t))"
         },
         {
           "atomType": "Equation",
-          "x": 0.04800431499460626,
-          "y": 0.6166281755196305,
+          "x": 0.04962243797195254,
+          "y": 0.5773672055427251,
           "uniqueID": "id-155",
           "name": "r * 2",
           "ioValues": [
             {
               "name": "r",
-              "ioValue": 517.4551287147822
+              "ioValue": -151.6083488911567
             }
           ],
           "currentEquation": "r * 2"
@@ -361,23 +361,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 1034.9102574295644
-            }
-          ]
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.16666666666666666,
-          "y": 0.6812933025404158,
-          "uniqueID": "id-163",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 1034.9102574295644
-            },
-            {
-              "name": "y length",
-              "ioValue": 1034.9102574295644
+              "ioValue": -303.2166977823134
             }
           ]
         },
@@ -393,11 +377,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 517.4551287147822
+              "ioValue": -151.6083488911567
             },
             {
               "name": "yDist",
-              "ioValue": 517.4551287147822
+              "ioValue": -151.6083488911567
             },
             {
               "name": "zDist",
@@ -417,11 +401,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -517.4551287147822
+              "ioValue": 151.6083488911567
             },
             {
               "name": "yDist",
-              "ioValue": -517.4551287147822
+              "ioValue": 151.6083488911567
             },
             {
               "name": "zDist",
@@ -431,14 +415,14 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.04746494066882417,
-          "y": 0.7482678983833718,
+          "x": 0.05070118662351672,
+          "y": 0.6859122401847575,
           "uniqueID": "id-187",
           "name": "-r",
           "ioValues": [
             {
               "name": "r",
-              "ioValue": 517.4551287147822
+              "ioValue": -151.6083488911567
             }
           ],
           "currentEquation": "-r"
@@ -455,7 +439,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 217.45512871478218
+              "ioValue": -451.6083488911567
             },
             {
               "name": "yDist",
@@ -469,8 +453,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.04854368932038835,
-          "y": 0.8775981524249422,
+          "x": 0.050161812297734636,
+          "y": 0.7990762124711317,
           "uniqueID": "id-198",
           "name": "-x + r",
           "ioValues": [
@@ -480,10 +464,24 @@
             },
             {
               "name": "r",
-              "ioValue": 517.4551287147822
+              "ioValue": -151.6083488911567
             }
           ],
           "currentEquation": "-x + r"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.050161812297734636,
+          "y": 0.9053117782909931,
+          "uniqueID": "id-203",
+          "name": "90 - t",
+          "ioValues": [
+            {
+              "name": "t",
+              "ioValue": 59.86202509210771
+            }
+          ],
+          "currentEquation": "90 - t"
         }
       ],
       "allConnectors": [
@@ -533,14 +531,14 @@
           "ap2ID": "id-137"
         },
         {
-          "ap2Name": "z-axis degrees",
+          "ap2Name": "t",
           "ap1ID": "id-127",
-          "ap2ID": "id-137"
+          "ap2ID": "id-147"
         },
         {
           "ap2Name": "t",
           "ap1ID": "id-127",
-          "ap2ID": "id-147"
+          "ap2ID": "id-203"
         },
         {
           "ap2Name": "geometry1",
@@ -588,29 +586,9 @@
           "ap2ID": "id-160"
         },
         {
-          "ap2Name": "x length",
-          "ap1ID": "id-155",
-          "ap2ID": "id-163"
-        },
-        {
-          "ap2Name": "y length",
-          "ap1ID": "id-155",
-          "ap2ID": "id-163"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-160",
           "ap2ID": "id-192"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-163",
-          "ap2ID": "id-167"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-163",
-          "ap2ID": "id-177"
         },
         {
           "ap2Name": "xDist",
@@ -626,6 +604,11 @@
           "ap2Name": "xDist",
           "ap1ID": "id-198",
           "ap2ID": "id-192"
+        },
+        {
+          "ap2Name": "z-axis degrees",
+          "ap1ID": "id-203",
+          "ap2ID": "id-137"
         }
       ],
       "fileTypeVersion": 1
