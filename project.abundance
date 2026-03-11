@@ -556,8 +556,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.8538295577130528,
-          "y": 0.40415704387990764,
+          "x": 0.8570658036677453,
+          "y": 0.4341801385681293,
           "uniqueID": "id-272",
           "ioValues": [
             {
@@ -644,7 +644,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "move-rectangle-10-516.7375-5-258.36875-0",
+                "geometry": "move-rectangle-10-516.7375-4.999-258.36875-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -772,8 +772,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.5474649406688241,
-          "y": 0.8822170900692841,
+          "x": 0.552319309600863,
+          "y": 0.8937644341801385,
           "uniqueID": "id-313",
           "ioValues": [
             {
@@ -788,8 +788,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6213592233009708,
-          "y": 0.8637413394919169,
+          "x": 0.6084142394822006,
+          "y": 0.9006928406466512,
           "uniqueID": "id-317",
           "ioValues": [
             {
@@ -798,8 +798,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 4.999,
+              "currentEquation": "5-.001"
             },
             {
               "name": "yDist",
