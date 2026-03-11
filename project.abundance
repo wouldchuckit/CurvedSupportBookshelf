@@ -356,8 +356,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3268608414239482,
-          "y": 0.7875288683602771,
+          "x": 0.3673139158576052,
+          "y": 0.8660508083140878,
           "uniqueID": "id-177",
           "ioValues": [
             {
@@ -366,7 +366,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -261.2573516276041
+              "ioValue": 0
             },
             {
               "name": "yDist",
@@ -476,13 +476,13 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.26591154261057176,
-          "y": 0.8036951501154734,
+          "x": 0.26105717367853293,
+          "y": 0.8406466512702079,
           "uniqueID": "id-221",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 522.5147032552082
+              "ioValue": 600
             },
             {
               "name": "y length",
@@ -492,8 +492,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.46062567421790723,
-          "y": 0.792147806004619,
+          "x": 0.4433656957928803,
+          "y": 0.838337182448037,
           "uniqueID": "id-247",
           "ioValues": [
             {
@@ -516,8 +516,8 @@
         },
         {
           "atomType": "Intersection",
-          "x": 0.7518878101402373,
-          "y": 0.2586605080831409,
+          "x": 0.7357065803667746,
+          "y": 0.2517321016166282,
           "uniqueID": "id-253",
           "ioValues": [
             {
@@ -563,7 +563,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "intersect-move-circle-261.2573516276041--338.7426483723959-516.7375-0-move-move-rectangle-522.5147032552082-522.5147032552082--261.2573516276041--261.2573516276041-0-0-516.7375-0",
+                "geometry": "intersect-move-circle-261.2573516276041--338.7426483723959-516.7375-0-move-move-rectangle-600-522.5147032552082-0--261.2573516276041-0-0-516.7375-0",
                 "tags": [],
                 "color": "#aad7f2",
                 "plane": {
@@ -713,6 +713,21 @@
           ],
           "readMeText": "This is single point patch to cover the inflection point where the two circles meet. The Circles worked independently but when they were both trying to act on the same point it crashed",
           "global": true
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.8042071197411004,
+          "y": 0.13394919168591224,
+          "uniqueID": "id-303",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Curve made of two tangent circles for shelf supports",
+          "global": true
         }
       ],
       "allConnectors": [
@@ -730,6 +745,11 @@
           "ap2Name": "x",
           "ap1ID": "id-71",
           "ap2ID": "id-198"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-71",
+          "ap2ID": "id-221"
         },
         {
           "ap2Name": "y",
@@ -812,11 +832,6 @@
           "ap2ID": "id-218"
         },
         {
-          "ap2Name": "x length",
-          "ap1ID": "id-155",
-          "ap2ID": "id-221"
-        },
-        {
           "ap2Name": "y length",
           "ap1ID": "id-155",
           "ap2ID": "id-221"
@@ -825,11 +840,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-177",
           "ap2ID": "id-247"
-        },
-        {
-          "ap2Name": "xDist",
-          "ap1ID": "id-187",
-          "ap2ID": "id-177"
         },
         {
           "ap2Name": "yDist",
@@ -885,6 +895,11 @@
           "ap2Name": "Shape 2",
           "ap1ID": "id-253",
           "ap2ID": "id-272"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-253",
+          "ap2ID": "id-303"
         },
         {
           "ap2Name": "geometry2",
