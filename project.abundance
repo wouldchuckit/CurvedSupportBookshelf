@@ -173,8 +173,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.13700107874865156,
-          "y": 0.2424942263279446,
+          "x": 0.1116504854368932,
+          "y": 0.18937644341801385,
           "uniqueID": "id-77",
           "ioValues": [
             {
@@ -188,9 +188,57 @@
               "currentEquation": "CurveHeight"
             }
           ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.11542610571736786,
+          "y": 0.39260969976905313,
+          "uniqueID": "id-81",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 300,
+              "currentEquation": "CurveWidth"
+            },
+            {
+              "name": "y length",
+              "ioValue": 1033.475,
+              "currentEquation": "2*CurveHeight"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.19579288025889965,
+          "y": 0.394919168591224,
+          "uniqueID": "id-85",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-81",
+          "ap2ID": "id-85"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
