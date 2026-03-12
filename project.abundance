@@ -118,8 +118,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.16019417475728157,
-      "y": 0.3810623556581986,
+      "x": 0.133764832793959,
+      "y": 0.371824480369515,
       "uniqueID": "id-332",
       "name": "README",
       "ioValues": [
@@ -148,8 +148,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1553398058252427,
-      "y": 0.21016166281755197,
+      "x": 0.1262135922330097,
+      "y": 0.19399538106235564,
       "uniqueID": "id-64",
       "name": "Curve",
       "ioValues": [
@@ -1129,30 +1129,6 @@
           "ap2ID": "id-277"
         }
       ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.33818770226537215,
-      "y": 0.45958429561200925,
-      "uniqueID": "id-474",
-      "name": "Github Molecule",
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-476",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        }
-      ],
-      "allConnectors": [],
       "fileTypeVersion": 1
     }
   ],
