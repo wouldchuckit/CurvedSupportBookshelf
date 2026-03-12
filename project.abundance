@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 300
+      "ioValue": 300,
+      "currentEquation": "300"
     },
     {
       "name": "ShelfNumber",
@@ -1409,18 +1410,43 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.1844660194174757,
-          "y": 0.47113163972286376,
+          "x": 0.13106796116504854,
+          "y": 0.40415704387990764,
           "uniqueID": "id-555",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 600,
+              "currentEquation": "TotalDepth"
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 1000,
+              "currentEquation": "TotalWidth"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.1790722761596548,
+          "y": 0.39260969976905313,
+          "uniqueID": "id-559",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         }
@@ -1465,6 +1491,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-551",
           "ap2ID": "id-480"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-555",
+          "ap2ID": "id-559"
         }
       ],
       "fileTypeVersion": 1
@@ -1525,6 +1556,11 @@
       "ap2Name": "Curve",
       "ap1ID": "id-64",
       "ap2ID": "id-478"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-64",
+      "ap2ID": "id-13"
     }
   ],
   "unitsKey": "MM",
