@@ -1133,8 +1133,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.24217907227615965,
-      "y": 0.2517321016166282,
+      "x": 0.2518878101402373,
+      "y": 0.26558891454965355,
       "uniqueID": "id-478",
       "name": "ShelfSection",
       "ioValues": [
@@ -1144,27 +1144,23 @@
         },
         {
           "name": "ShelfHeight",
-          "ioValue": 10
-        },
-        {
-          "name": "ShelfWidth",
-          "ioValue": 10
+          "ioValue": 516.7375
         },
         {
           "name": "WoodThick",
-          "ioValue": 10
+          "ioValue": 19.05
         },
         {
           "name": "TotalDepth",
-          "ioValue": 10
+          "ioValue": 600
         },
         {
           "name": "TotalWidth",
-          "ioValue": 10
+          "ioValue": 1000
         },
         {
-          "name": "ShelfIndex",
-          "ioValue": 10
+          "name": "CurveWidth",
+          "ioValue": 300
         }
       ],
       "topLevel": false,
@@ -1199,37 +1195,23 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.31675750577367207,
-          "uniqueID": "id-488",
-          "name": "ShelfWidth"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.38275750577367207,
+          "y": 0.3187066974595843,
           "uniqueID": "id-491",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.44875750577367207,
+          "y": 0.3810623556581986,
           "uniqueID": "id-494",
           "name": "TotalDepth"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.5147575057736721,
+          "y": 0.44803695150115475,
           "uniqueID": "id-497",
           "name": "TotalWidth"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.580757505773672,
-          "uniqueID": "id-500",
-          "name": "ShelfIndex"
         },
         {
           "atomType": "Rectangle",
@@ -1239,16 +1221,55 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 300,
+              "currentEquation": "TotalDepth-CurveWidth"
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 516.7375,
+              "currentEquation": "ShelfHeight"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.5140369515011547,
+          "uniqueID": "id-521",
+          "name": "CurveWidth"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.25026968716289105,
+          "y": 0.4018475750577367,
+          "uniqueID": "id-524",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-517",
+          "ap2ID": "id-524"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
@@ -1259,9 +1280,24 @@
       "ap2ID": "id-64"
     },
     {
+      "ap2Name": "CurveWidth",
+      "ap1ID": "id-19",
+      "ap2ID": "id-478"
+    },
+    {
       "ap2Name": "value",
       "ap1ID": "id-22",
       "ap2ID": "id-334"
+    },
+    {
+      "ap2Name": "TotalDepth",
+      "ap1ID": "id-28",
+      "ap2ID": "id-478"
+    },
+    {
+      "ap2Name": "TotalWidth",
+      "ap1ID": "id-31",
+      "ap2ID": "id-478"
     },
     {
       "ap2Name": "WoodThick",
@@ -1269,14 +1305,29 @@
       "ap2ID": "id-64"
     },
     {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-478"
+    },
+    {
       "ap2Name": "CurveHeight",
       "ap1ID": "id-43",
       "ap2ID": "id-64"
     },
     {
+      "ap2Name": "ShelfHeight",
+      "ap1ID": "id-43",
+      "ap2ID": "id-478"
+    },
+    {
       "ap2Name": "value",
       "ap1ID": "id-64",
       "ap2ID": "id-332"
+    },
+    {
+      "ap2Name": "Curve",
+      "ap1ID": "id-64",
+      "ap2ID": "id-478"
     }
   ],
   "unitsKey": "MM",
