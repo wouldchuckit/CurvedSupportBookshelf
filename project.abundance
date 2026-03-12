@@ -1381,7 +1381,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 300,
+              "currentEquation": "CurveWidth"
             },
             {
               "name": "yDist",
@@ -1414,7 +1415,8 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 10,
+              "currentEquation": "10"
             },
             {
               "name": "y length",
