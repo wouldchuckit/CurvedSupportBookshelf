@@ -1215,8 +1215,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.15911542610571736,
-          "y": 0.3348729792147806,
+          "x": 0.11650485436893203,
+          "y": 0.18013856812933027,
           "uniqueID": "id-517",
           "ioValues": [
             {
@@ -1240,8 +1240,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.25026968716289105,
-          "y": 0.4018475750577367,
+          "x": 0.18770226537216828,
+          "y": 0.18937644341801385,
           "uniqueID": "id-524",
           "ioValues": [
             {
@@ -1250,14 +1250,120 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 150,
+              "currentEquation": ".5 * (TotalDepth - CurveWidth)"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 258.36875,
+              "currentEquation": ".5 *ShelfHeight"
             },
             {
               "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.2540453074433657,
+          "y": 0.18475750577367206,
+          "uniqueID": "id-530",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-rectangle-300-516.7375-150-258.36875-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "fuse-cut-fuse-cut-move-rectangle-300-516.7375--150-258.36875-0-rotate-move-rectangle-300-2583.6875--150-516.7375-0-0-0-30.137974907892293-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-297.51470325520836--297.51470325520836-0-0-fuse-intersect-move-circle-297.51470325520836--2.48529674479164-516.7375-0-move-move-rectangle-300-595.0294065104167-0--297.51470325520836-0--150-516.7375-0-move-circle-0.5--150-258.36875-0",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "2D"
+              }
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3193096008629989,
+          "y": 0.19399538106235564,
+          "uniqueID": "id-535",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 19.05,
+              "currentEquation": "WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.38673139158576053,
+          "y": 0.18475750577367206,
+          "uniqueID": "id-539",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
               "ioValue": 0
             }
           ]
@@ -1265,9 +1371,29 @@
       ],
       "allConnectors": [
         {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-482",
+          "ap2ID": "id-530"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-517",
           "ap2ID": "id-524"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-524",
+          "ap2ID": "id-530"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-530",
+          "ap2ID": "id-535"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-535",
+          "ap2ID": "id-539"
         }
       ],
       "fileTypeVersion": 1
