@@ -1384,8 +1384,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.46763754045307443,
-          "y": 0.16397228637413394,
+          "x": 0.4741100323624596,
+          "y": 0.12240184757505775,
           "uniqueID": "id-545",
           "ioValues": [
             {
@@ -1470,29 +1470,9 @@
           ]
         },
         {
-          "atomType": "Assembly",
-          "x": 0.6014023732470334,
-          "y": 0.279445727482679,
-          "uniqueID": "id-570",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            }
-          ]
-        },
-        {
           "atomType": "Move",
-          "x": 0.5215749730312838,
-          "y": 0.14318706697459585,
+          "x": 0.47788565264293414,
+          "y": 0.26096997690531176,
           "uniqueID": "id-575",
           "ioValues": [
             {
@@ -1516,8 +1496,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.41909385113268605,
-          "y": 0.12471131639722863,
+          "x": 0.42880258899676377,
+          "y": 0.12240184757505775,
           "uniqueID": "id-582",
           "ioValues": [
             {
@@ -1540,6 +1520,53 @@
           "uniqueID": "id-595",
           "name": "ShelfIndex",
           "currentEquation": "ShelfIndex"
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.5442286947141316,
+          "y": 0.24018475750577367,
+          "uniqueID": "id-599",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            ""
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.5431499460625674,
+          "y": 0.11316397228637413,
+          "uniqueID": "id-602",
+          "name": "RightSIde",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "RightSIde"
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.30204962243797195,
+          "y": 0.4064665127020785,
+          "uniqueID": "id-605",
+          "name": "Shelf",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Shelf"
+          ]
         }
       ],
       "allConnectors": [
@@ -1574,14 +1601,14 @@
           "ap2ID": "id-582"
         },
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "geometry",
           "ap1ID": "id-545",
-          "ap2ID": "id-570"
+          "ap2ID": "id-575"
         },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-545",
-          "ap2ID": "id-575"
+          "ap2ID": "id-602"
         },
         {
           "ap2Name": "geometry",
@@ -1594,19 +1621,14 @@
           "ap2ID": "id-565"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "geometry",
           "ap1ID": "id-565",
-          "ap2ID": "id-570"
+          "ap2ID": "id-605"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-570",
-          "ap2ID": "id-480"
-        },
-        {
-          "ap2Name": "Shape 3",
+          "ap2Name": "geometry",
           "ap1ID": "id-575",
-          "ap2ID": "id-570"
+          "ap2ID": "id-599"
         },
         {
           "ap2Name": "geometry",
