@@ -1130,6 +1130,28 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Code",
+      "x": 0.3683926645091694,
+      "y": 0.535796766743649,
+      "uniqueID": "id-469",
+      "ioValues": [
+        {
+          "name": "shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "radius",
+          "ioValue": 5
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n  { inputName: \"radius\", type: \"number\", defaultValue: 5 },\n  { inputName: \"height\", type: \"number\", defaultValue: 10 }\n];\n\nlet importedShape = library[shape];\nlet newPlane = replicad.makePlane()\nlet circDraw = replicad.drawCircle(radius)\nlet sketchCir = circDraw.sketchOnPlane(newPlane)\nlet cyl = sketchCir.extrude(height)\nlet cylObj = {\n  geometry: [cyl],\n  dimension: \"3D\",\n  tags: [\"createdCylinder\"],\n  color: \"#A3CE5B\",\n  plane: null,\n  bom: []\n};\n\nlet assembly = await Assembly([importedShape, cylObj]);\nreturn assembly;\n"
     }
   ],
   "allConnectors": [
@@ -1157,6 +1179,11 @@
       "ap2Name": "value",
       "ap1ID": "id-64",
       "ap2ID": "id-332"
+    },
+    {
+      "ap2Name": "shape",
+      "ap1ID": "id-64",
+      "ap2ID": "id-469"
     }
   ],
   "unitsKey": "MM",
