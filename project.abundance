@@ -1149,6 +1149,18 @@
         {
           "name": "ShelfWidth",
           "ioValue": 10
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 10
+        },
+        {
+          "name": "TotalDepth",
+          "ioValue": 10
+        },
+        {
+          "name": "TotalWidth",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -1186,6 +1198,27 @@
           "y": 0.31675750577367207,
           "uniqueID": "id-488",
           "name": "ShelfWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.38275750577367207,
+          "uniqueID": "id-491",
+          "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.44875750577367207,
+          "uniqueID": "id-494",
+          "name": "TotalDepth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.5147575057736721,
+          "uniqueID": "id-497",
+          "name": "TotalWidth"
         }
       ],
       "allConnectors": [],
