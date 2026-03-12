@@ -37,6 +37,14 @@
     {
       "name": "TopHeight",
       "ioValue": 100
+    },
+    {
+      "name": "ScrewShaft",
+      "ioValue": 10
+    },
+    {
+      "name": "ScrewHead",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -111,8 +119,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.023732470334412083,
-      "y": 0.7090069284064665,
+      "x": 0.019956850053937433,
+      "y": 0.812933025404157,
       "uniqueID": "id-43",
       "name": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber",
       "currentEquation": "(TotalHeight - TopHeight -BaseHeight - WoodThick)/ShelfNumber"
@@ -1134,8 +1142,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2518878101402373,
-      "y": 0.26558891454965355,
+      "x": 0.2367853290183387,
+      "y": 0.3764434180138568,
       "uniqueID": "id-478",
       "name": "ShelfSection",
       "ioValues": [
@@ -1372,8 +1380,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4433656957928803,
-          "y": 0.17551963048498845,
+          "x": 0.46763754045307443,
+          "y": 0.16397228637413394,
           "uniqueID": "id-545",
           "ioValues": [
             {
@@ -1470,6 +1478,47 @@
             {
               "name": "Shape 2",
               "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5215749730312838,
+          "y": 0.14318706697459585,
+          "uniqueID": "id-575",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 980.95,
+              "currentEquation": "TotalWidth - WoodThick"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.41909385113268605,
+          "y": 0.12471131639722863,
+          "uniqueID": "id-582",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
             }
           ]
         }
@@ -1501,14 +1550,19 @@
           "ap2ID": "id-539"
         },
         {
-          "ap2Name": "geometry",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-539",
-          "ap2ID": "id-545"
+          "ap2ID": "id-582"
         },
         {
           "ap2Name": "Shape 2",
           "ap1ID": "id-545",
           "ap2ID": "id-570"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-545",
+          "ap2ID": "id-575"
         },
         {
           "ap2Name": "geometry",
@@ -1524,9 +1578,38 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-565",
           "ap2ID": "id-570"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-570",
+          "ap2ID": "id-480"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-575",
+          "ap2ID": "id-570"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-582",
+          "ap2ID": "id-545"
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6304849884526559,
+      "uniqueID": "id-586",
+      "name": "ScrewShaft"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6882217090069285,
+      "uniqueID": "id-589",
+      "name": "ScrewHead"
     }
   ],
   "allConnectors": [
