@@ -1232,12 +1232,20 @@
           "name": "ShelfIndex"
         },
         {
-          "atomType": "Equation",
-          "x": 0.378101402373247,
-          "y": 0.5265588914549654,
-          "uniqueID": "id-503",
-          "name": "",
-          "currentEquation": ""
+          "atomType": "Rectangle",
+          "x": 0.15911542610571736,
+          "y": 0.3348729792147806,
+          "uniqueID": "id-517",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [],
