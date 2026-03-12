@@ -1130,6 +1130,66 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.24217907227615965,
+      "y": 0.2517321016166282,
+      "uniqueID": "id-478",
+      "name": "ShelfSection",
+      "ioValues": [
+        {
+          "name": "Curve",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "ShelfHeight",
+          "ioValue": 10
+        },
+        {
+          "name": "ShelfWidth",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-480",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.18475750577367206,
+          "uniqueID": "id-482",
+          "name": "Curve",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.25075750577367206,
+          "uniqueID": "id-485",
+          "name": "ShelfHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.31675750577367207,
+          "uniqueID": "id-488",
+          "name": "ShelfWidth"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
