@@ -1170,6 +1170,10 @@
         {
           "name": "CurveWidth",
           "ioValue": 300
+        },
+        {
+          "name": "ShelfIndex",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -1521,6 +1525,21 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.5800369515011548,
+          "uniqueID": "id-592",
+          "name": "ShelfIndex"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.17313915857605178,
+          "y": 0.7020785219399538,
+          "uniqueID": "id-595",
+          "name": "ShelfIndex",
+          "currentEquation": "ShelfIndex"
         }
       ],
       "allConnectors": [
