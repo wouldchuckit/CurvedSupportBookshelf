@@ -1161,6 +1161,10 @@
         {
           "name": "TotalWidth",
           "ioValue": 10
+        },
+        {
+          "name": "ShelfIndex",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -1219,6 +1223,21 @@
           "y": 0.5147575057736721,
           "uniqueID": "id-497",
           "name": "TotalWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.580757505773672,
+          "uniqueID": "id-500",
+          "name": "ShelfIndex"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.378101402373247,
+          "y": 0.5265588914549654,
+          "uniqueID": "id-503",
+          "name": "",
+          "currentEquation": ""
         }
       ],
       "allConnectors": [],
