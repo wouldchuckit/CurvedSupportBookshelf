@@ -1173,7 +1173,7 @@
         },
         {
           "name": "ShelfIndex",
-          "ioValue": 10
+          "ioValue": 0
         }
       ],
       "topLevel": false,
@@ -1515,17 +1515,18 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.17313915857605178,
-          "y": 0.7020785219399538,
+          "x": 0.07766990291262135,
+          "y": 0.5958429561200923,
           "uniqueID": "id-595",
-          "name": "ShelfIndex",
-          "currentEquation": "ShelfIndex"
+          "name": "10 % 5",
+          "currentEquation": "10 % 5"
         },
         {
           "atomType": "Tag",
           "x": 0.5442286947141316,
           "y": 0.24018475750577367,
           "uniqueID": "id-599",
+          "name": "LeftSide",
           "ioValues": [
             {
               "name": "geometry",
@@ -1533,7 +1534,7 @@
             }
           ],
           "tags": [
-            ""
+            "LeftSide"
           ]
         },
         {
@@ -1541,7 +1542,7 @@
           "x": 0.5431499460625674,
           "y": 0.11316397228637413,
           "uniqueID": "id-602",
-          "name": "RightSIde",
+          "name": "RightSide",
           "ioValues": [
             {
               "name": "geometry",
@@ -1549,7 +1550,7 @@
             }
           ],
           "tags": [
-            "RightSIde"
+            "RightSide"
           ]
         },
         {
@@ -1566,6 +1567,26 @@
           ],
           "tags": [
             "Shelf"
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.6548004314994605,
+          "y": 0.3117782909930716,
+          "uniqueID": "id-608",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
           ]
         }
       ],
@@ -1634,6 +1655,26 @@
           "ap2Name": "geometry",
           "ap1ID": "id-582",
           "ap2ID": "id-545"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-599",
+          "ap2ID": "id-608"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-602",
+          "ap2ID": "id-608"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-605",
+          "ap2ID": "id-608"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-608",
+          "ap2ID": "id-480"
         }
       ],
       "fileTypeVersion": 1
