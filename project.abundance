@@ -1329,8 +1329,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.3193096008629989,
-          "y": 0.19399538106235564,
+          "x": 0.319848975188781,
+          "y": 0.18937644341801385,
           "uniqueID": "id-535",
           "ioValues": [
             {
@@ -1356,7 +1356,8 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 90,
+              "currentEquation": "90"
             },
             {
               "name": "y-axis degrees",
@@ -1365,6 +1366,59 @@
             {
               "name": "z-axis degrees",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4331175836030205,
+          "y": 0.18937644341801385,
+          "uniqueID": "id-545",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 19.05,
+              "currentEquation": "WoodThick"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8009708737864077,
+          "y": 0.348729792147806,
+          "uniqueID": "id-551",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.1844660194174757,
+          "y": 0.47113163972286376,
+          "uniqueID": "id-555",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
             }
           ]
         }
@@ -1394,6 +1448,21 @@
           "ap2Name": "geometry",
           "ap1ID": "id-535",
           "ap2ID": "id-539"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-539",
+          "ap2ID": "id-545"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-545",
+          "ap2ID": "id-551"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-551",
+          "ap2ID": "id-480"
         }
       ],
       "fileTypeVersion": 1
