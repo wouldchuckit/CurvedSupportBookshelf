@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 300,
-      "currentEquation": "300"
+      "ioValue": 300
     },
     {
       "name": "ShelfNumber",
@@ -154,6 +153,20 @@
       ],
       "readMeText": "Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf",
       "global": true
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6380000000000001,
+      "uniqueID": "id-586",
+      "name": "ScrewShaft"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.7040000000000002,
+      "uniqueID": "id-589",
+      "name": "ScrewHead"
     },
     {
       "atomType": "Molecule",
@@ -1193,7 +1206,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.18475750577367206,
+          "y": 0.10999999999999999,
           "uniqueID": "id-482",
           "name": "Curve",
           "type": "geometry"
@@ -1201,28 +1214,28 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.25075750577367206,
+          "y": 0.176,
           "uniqueID": "id-485",
           "name": "ShelfHeight"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.3187066974595843,
+          "y": 0.242,
           "uniqueID": "id-491",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.3810623556581986,
+          "y": 0.308,
           "uniqueID": "id-494",
           "name": "TotalDepth"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.44803695150115475,
+          "y": 0.374,
           "uniqueID": "id-497",
           "name": "TotalWidth"
         },
@@ -1230,24 +1243,12 @@
           "atomType": "Rectangle",
           "x": 0.11650485436893203,
           "y": 0.18013856812933027,
-          "uniqueID": "id-517",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 300,
-              "currentEquation": "TotalDepth-CurveWidth"
-            },
-            {
-              "name": "y length",
-              "ioValue": 516.7375,
-              "currentEquation": "ShelfHeight"
-            }
-          ]
+          "uniqueID": "id-517"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.5140369515011547,
+          "y": 0.44,
           "uniqueID": "id-521",
           "name": "CurveWidth"
         },
@@ -1260,16 +1261,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 150,
-              "currentEquation": ".5 * (TotalDepth - CurveWidth)"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 258.36875,
-              "currentEquation": ".5 *ShelfHeight"
             },
             {
               "name": "zDist",
@@ -1285,57 +1276,11 @@
           "ioValues": [
             {
               "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-rectangle-300-516.7375-150-258.36875-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 2",
-              "ioValue": {
-                "geometry": "fuse-cut-fuse-cut-move-rectangle-300-516.7375--150-258.36875-0-rotate-move-rectangle-300-2583.6875--150-516.7375-0-0-0-30.137974907892293-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-297.51470325520836--297.51470325520836-0-0-fuse-intersect-move-circle-297.51470325520836--2.48529674479164-516.7375-0-move-move-rectangle-300-595.0294065104167-0--297.51470325520836-0--150-516.7375-0-move-circle-0.5--150-258.36875-0",
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "dimension": "2D"
-              }
+              "ioValue": null
             }
           ],
           "unionType": "Fusion"
@@ -1349,11 +1294,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
             }
           ]
         },
@@ -1369,8 +1309,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "y-axis degrees",
@@ -1393,16 +1332,6 @@
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "xDist",
-              "ioValue": 300,
-              "currentEquation": "CurveWidth"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
-            },
-            {
               "name": "zDist",
               "ioValue": 0
             }
@@ -1412,19 +1341,7 @@
           "atomType": "Rectangle",
           "x": 0.12297734627831715,
           "y": 0.3856812933025404,
-          "uniqueID": "id-555",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 600,
-              "currentEquation": "TotalDepth"
-            },
-            {
-              "name": "y length",
-              "ioValue": 1000,
-              "currentEquation": "TotalWidth"
-            }
-          ]
+          "uniqueID": "id-555"
         },
         {
           "atomType": "Move",
@@ -1435,16 +1352,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 300,
-              "currentEquation": ".5*TotalDepth"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 500,
-              "currentEquation": ".5*TotalWidth"
             },
             {
               "name": "zDist",
@@ -1461,11 +1368,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
             }
           ]
         },
@@ -1482,11 +1384,6 @@
             {
               "name": "xDist",
               "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 980.95,
-              "currentEquation": "TotalWidth - WoodThick"
             },
             {
               "name": "zDist",
@@ -1509,7 +1406,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.5800369515011548,
+          "y": 0.506,
           "uniqueID": "id-592",
           "name": "ShelfIndex"
         },
@@ -1678,20 +1575,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.6304849884526559,
-      "uniqueID": "id-586",
-      "name": "ScrewShaft"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.6882217090069285,
-      "uniqueID": "id-589",
-      "name": "ScrewHead"
     }
   ],
   "allConnectors": [
