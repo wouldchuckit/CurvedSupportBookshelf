@@ -8,11 +8,7 @@
 
  ### Curve
 
-Curve made of two tangent circles for shelf supports. Functions until the length is about 3 times the height.  
-
-![readme](/readmeid-303.svg?v=nbpdfs1)
-
-
+Curve made of two tangent circles for shelf supports. Functions until the length is about 3 times the height. 
 
 Tis is also a patch for the edge when it gets too thin to a single point.  
 
@@ -26,11 +22,7 @@ This is single point patch to cover the inflection point where the two circles m
 
 
 
-Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height 
-
-![readme](/readmeid-332.svg?v=n83yr3w)
-
-
+Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height
 
 Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
 
