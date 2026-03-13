@@ -169,6 +169,24 @@
       "name": "ScrewHead"
     },
     {
+      "atomType": "Equation",
+      "x": 0.037756202804746494,
+      "y": 0.9353348729792148,
+      "uniqueID": "id-1380",
+      "name": "ShelfHeight - WT",
+      "ioValues": [
+        {
+          "name": "ShelfHeight",
+          "ioValue": 516.7375
+        },
+        {
+          "name": "WT",
+          "ioValue": 19.05
+        }
+      ],
+      "currentEquation": "ShelfHeight - WT"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.1262135922330097,
       "y": 0.19399538106235564,
@@ -219,7 +237,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.24942263279445726,
+          "y": 0.242,
           "uniqueID": "id-74",
           "name": "CurveHeight"
         },
@@ -2736,24 +2754,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.037756202804746494,
-      "y": 0.9353348729792148,
-      "uniqueID": "id-1380",
-      "name": "ShelfHeight - WT",
-      "ioValues": [
-        {
-          "name": "ShelfHeight",
-          "ioValue": 516.7375
-        },
-        {
-          "name": "WT",
-          "ioValue": 19.05
-        }
-      ],
-      "currentEquation": "ShelfHeight - WT"
     }
   ],
   "allConnectors": [
@@ -2808,6 +2808,11 @@
       "ap2ID": "id-1380"
     },
     {
+      "ap2Name": "CurveHeight",
+      "ap1ID": "id-1380",
+      "ap2ID": "id-64"
+    },
+    {
       "ap2Name": "value",
       "ap1ID": "id-64",
       "ap2ID": "id-332"
@@ -2821,11 +2826,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-478",
       "ap2ID": "id-13"
-    },
-    {
-      "ap2Name": "CurveHeight",
-      "ap1ID": "id-1380",
-      "ap2ID": "id-64"
     }
   ],
   "unitsKey": "MM",
