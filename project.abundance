@@ -1187,6 +1187,14 @@
         {
           "name": "ShelfIndex",
           "ioValue": 0
+        },
+        {
+          "name": "ScrewDiameter",
+          "ioValue": 2
+        },
+        {
+          "name": "ScrewHead",
+          "ioValue": 5
         }
       ],
       "topLevel": false,
@@ -1405,7 +1413,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 1000
             },
             {
               "name": "zDist",
@@ -1445,7 +1453,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 500
             },
             {
               "name": "zDist",
@@ -1485,7 +1493,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 19.05
             },
             {
               "name": "zDist",
@@ -1628,9 +1636,79 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.1639697950377562,
-          "y": 0.6697459584295612,
+          "x": 0.1645091693635383,
+          "y": 0.6143187066974596,
           "uniqueID": "id-842",
+          "name": "x/2",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 600
+            }
+          ],
+          "currentEquation": "x/2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.1634304207119741,
+          "y": 0.7043879907621247,
+          "uniqueID": "id-846",
+          "name": "y/2",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 1000
+            }
+          ],
+          "currentEquation": "y/2"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.5720000000000001,
+          "uniqueID": "id-851",
+          "name": "ScrewDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.6380000000000001,
+          "uniqueID": "id-854",
+          "name": "ScrewHead"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.34519956850053934,
+          "y": 0.2678983833718245,
+          "uniqueID": "id-857",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 2
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3964401294498382,
+          "y": 0.2817551963048499,
+          "uniqueID": "id-860",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 19.05
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.4255663430420712,
+          "y": 0.6928406466512702,
+          "uniqueID": "id-865",
           "name": "x + y",
           "ioValues": [
             {
@@ -1643,6 +1721,30 @@
             }
           ],
           "currentEquation": "x + y"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4385113268608414,
+          "y": 0.418013856812933,
+          "uniqueID": "id-869",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1672,6 +1774,16 @@
           "ap2ID": "id-565"
         },
         {
+          "ap2Name": "yDist",
+          "ap1ID": "id-491",
+          "ap2ID": "id-575"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-491",
+          "ap2ID": "id-860"
+        },
+        {
           "ap2Name": "TD",
           "ap1ID": "id-494",
           "ap2ID": "id-821"
@@ -1682,9 +1794,24 @@
           "ap2ID": "id-555"
         },
         {
+          "ap2Name": "x",
+          "ap1ID": "id-494",
+          "ap2ID": "id-842"
+        },
+        {
           "ap2Name": "y length",
           "ap1ID": "id-497",
           "ap2ID": "id-555"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-497",
+          "ap2ID": "id-846"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-497",
+          "ap2ID": "id-545"
         },
         {
           "ap2Name": "geometry",
@@ -1707,11 +1834,6 @@
           "ap2ID": "id-535"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-530",
-          "ap2ID": "id-480"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-535",
           "ap2ID": "id-539"
@@ -1720,11 +1842,6 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-539",
           "ap2ID": "id-582"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-545",
-          "ap2ID": "id-575"
         },
         {
           "ap2Name": "geometry",
@@ -1757,6 +1874,11 @@
           "ap2ID": "id-545"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-582",
+          "ap2ID": "id-575"
+        },
+        {
           "ap2Name": "Shape 3",
           "ap1ID": "id-599",
           "ap2ID": "id-608"
@@ -1770,6 +1892,11 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-605",
           "ap2ID": "id-608"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-608",
+          "ap2ID": "id-480"
         },
         {
           "ap2Name": "x length",
@@ -1790,6 +1917,21 @@
           "ap2Name": "yDist",
           "ap1ID": "id-831",
           "ap2ID": "id-524"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-846",
+          "ap2ID": "id-559"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-851",
+          "ap2ID": "id-857"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-857",
+          "ap2ID": "id-860"
         }
       ],
       "fileTypeVersion": 1
