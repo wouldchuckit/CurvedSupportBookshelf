@@ -2538,7 +2538,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 400
+              "ioValue": 500
             },
             {
               "name": "zDist",
@@ -2551,14 +2551,14 @@
           "x": 0.48274002157497303,
           "y": 0.951501154734411,
           "uniqueID": "id-1793",
-          "name": "4*TW/10",
+          "name": "5*TW/10",
           "ioValues": [
             {
               "name": "TW",
               "ioValue": 1000
             }
           ],
-          "currentEquation": "4*TW/10"
+          "currentEquation": "5*TW/10"
         }
       ],
       "allConnectors": [
