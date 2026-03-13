@@ -1247,11 +1247,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 300
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 516.7375
             }
           ]
         },
@@ -1295,7 +1295,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rectangle-10-10-0-0-0",
+                "geometry": "move-rectangle-300-516.7375-0-0-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -1579,6 +1579,52 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04099244875943905,
+          "y": 0.6304849884526559,
+          "uniqueID": "id-821",
+          "name": "TD-CW",
+          "ioValues": [
+            {
+              "name": "TD",
+              "ioValue": 600
+            },
+            {
+              "name": "CW",
+              "ioValue": 300
+            }
+          ],
+          "currentEquation": "TD-CW"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04261057173678533,
+          "y": 0.7367205542725173,
+          "uniqueID": "id-827",
+          "name": "x/2",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 300
+            }
+          ],
+          "currentEquation": "x/2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.041531823085221145,
+          "y": 0.859122401847575,
+          "uniqueID": "id-831",
+          "name": "y/2",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 516.7375
+            }
+          ],
+          "currentEquation": "y/2"
         }
       ],
       "allConnectors": [
@@ -1588,9 +1634,29 @@
           "ap2ID": "id-530"
         },
         {
+          "ap2Name": "y length",
+          "ap1ID": "id-485",
+          "ap2ID": "id-517"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-485",
+          "ap2ID": "id-831"
+        },
+        {
+          "ap2Name": "TD",
+          "ap1ID": "id-494",
+          "ap2ID": "id-821"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-517",
           "ap2ID": "id-524"
+        },
+        {
+          "ap2Name": "CW",
+          "ap1ID": "id-521",
+          "ap2ID": "id-821"
         },
         {
           "ap2Name": "Shape 1",
@@ -1601,6 +1667,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-530",
           "ap2ID": "id-535"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-530",
+          "ap2ID": "id-480"
         },
         {
           "ap2Name": "geometry",
@@ -1663,9 +1734,14 @@
           "ap2ID": "id-608"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-608",
-          "ap2ID": "id-480"
+          "ap2Name": "x length",
+          "ap1ID": "id-821",
+          "ap2ID": "id-517"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-821",
+          "ap2ID": "id-827"
         }
       ],
       "fileTypeVersion": 1
