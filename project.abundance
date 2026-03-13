@@ -2471,6 +2471,30 @@
             }
           ],
           "currentEquation": "-y/2"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.42826321467098166,
+          "y": 0.8198614318706698,
+          "uniqueID": "id-1769",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -9.525
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2790,6 +2814,11 @@
           "ap2ID": "id-1004"
         },
         {
+          "ap2Name": "xDist",
+          "ap1ID": "id-882",
+          "ap2ID": "id-1769"
+        },
+        {
           "ap2Name": "Shape 4",
           "ap1ID": "id-895",
           "ap2ID": "id-582"
@@ -2903,6 +2932,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-1749",
           "ap2ID": "id-1753"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1753",
+          "ap2ID": "id-1769"
         },
         {
           "ap2Name": "yDist",
