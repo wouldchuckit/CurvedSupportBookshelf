@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 300
+      "ioValue": 300,
+      "currentEquation": "300"
     },
     {
       "name": "ShelfNumber",
@@ -3052,16 +3053,16 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.20873786407766992,
-      "y": 0.9237875288683602,
+      "x": 0.19741100323624594,
+      "y": 0.9445727482678984,
       "uniqueID": "id-1800",
       "name": "ShelfIndexONE",
       "value": 1
     },
     {
       "atomType": "Move",
-      "x": 0.2626752966558792,
-      "y": 0.9284064665127021,
+      "x": 0.412621359223301,
+      "y": 0.9191685912240185,
       "uniqueID": "id-1802",
       "ioValues": [
         {
@@ -3084,8 +3085,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.209277238403452,
-      "y": 0.7967667436489608,
+      "x": 0.3473570658036677,
+      "y": 0.7944572748267898,
       "uniqueID": "id-1808",
       "name": "BH",
       "ioValues": [
@@ -3097,28 +3098,32 @@
       "currentEquation": "BH"
     },
     {
-      "atomType": "Move",
-      "x": 0.26537216828478966,
-      "y": 0.8036951501154734,
-      "uniqueID": "id-1812",
+      "atomType": "Equation",
+      "x": 0.20064724919093854,
+      "y": 0.8637413394919169,
+      "uniqueID": "id-1819",
+      "name": "i + 1",
       "ioValues": [
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
+          "name": "i",
+          "ioValue": 1
         }
-      ]
+      ],
+      "currentEquation": "i + 1"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2017259978425027,
+      "y": 0.8036951501154734,
+      "uniqueID": "id-1824",
+      "name": "i + 1",
+      "ioValues": [
+        {
+          "name": "i",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "i + 1"
     }
   ],
   "allConnectors": [
@@ -3201,6 +3206,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-478",
       "ap2ID": "id-13"
+    },
+    {
+      "ap2Name": "i",
+      "ap1ID": "id-1800",
+      "ap2ID": "id-1819"
     }
   ],
   "unitsKey": "MM",
