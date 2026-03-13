@@ -2488,7 +2488,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -400
+              "ioValue": 400
             },
             {
               "name": "zDist",
@@ -2501,18 +2501,18 @@
           "x": 0.3959007551240561,
           "y": 0.951501154734411,
           "uniqueID": "id-1781",
-          "name": "i * (2*TW/10) + (i-1)(4*TW/10)",
+          "name": "(2*TW/10) + i*(2*TW/10)",
           "ioValues": [
             {
               "name": "i",
-              "ioValue": 0
+              "ioValue": 1
             },
             {
               "name": "TW",
               "ioValue": 1000
             }
           ],
-          "currentEquation": "i * (2*TW/10) + (i-1)(4*TW/10)"
+          "currentEquation": "(2*TW/10) + i*(2*TW/10)"
         }
       ],
       "allConnectors": [
