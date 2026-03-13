@@ -185,7 +185,7 @@
         },
         {
           "name": "CurveHeight",
-          "ioValue": 516.7375
+          "ioValue": 497.68749999999994
         }
       ],
       "topLevel": false,
@@ -219,7 +219,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.242,
+          "y": 0.24942263279445726,
           "uniqueID": "id-74",
           "name": "CurveHeight"
         },
@@ -236,7 +236,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 516.7375,
+              "ioValue": 497.68749999999994,
               "currentEquation": "CurveHeight"
             }
           ]
@@ -254,7 +254,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 2583.6875,
+              "ioValue": 2488.4374999999995,
               "currentEquation": "5*CurveHeight"
             }
           ]
@@ -276,7 +276,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 516.7375,
+              "ioValue": 497.68749999999994,
               "currentEquation": "CurveHeight"
             },
             {
@@ -294,7 +294,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 516.7375
+              "ioValue": 497.68749999999994
             },
             {
               "name": "x",
@@ -320,7 +320,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 258.36875,
+              "ioValue": 248.84374999999997,
               "currentEquation": "CurveHeight/2"
             },
             {
@@ -349,7 +349,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 30.137974907892293
+              "ioValue": 31.081063968013048
             }
           ]
         },
@@ -382,11 +382,11 @@
             },
             {
               "name": "y",
-              "ioValue": 516.7375
+              "ioValue": 497.68749999999994
             },
             {
               "name": "t",
-              "ioValue": 1.0447894347687412
+              "ioValue": 1.0283294255300954
             }
           ],
           "currentEquation": "sqrt(x^2 + y^2)/ (4 * cos(t))"
@@ -400,7 +400,7 @@
           "ioValues": [
             {
               "name": "r",
-              "ioValue": 297.51470325520836
+              "ioValue": 281.4107063802083
             }
           ],
           "currentEquation": "r * 2"
@@ -421,7 +421,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -297.51470325520836
+              "ioValue": -281.4107063802083
             },
             {
               "name": "zDist",
@@ -438,7 +438,7 @@
           "ioValues": [
             {
               "name": "r",
-              "ioValue": 297.51470325520836
+              "ioValue": 281.4107063802083
             }
           ],
           "currentEquation": "-r"
@@ -455,11 +455,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -2.48529674479164
+              "ioValue": -18.589293619791704
             },
             {
               "name": "yDist",
-              "ioValue": 516.7375
+              "ioValue": 497.68749999999994
             },
             {
               "name": "zDist",
@@ -480,7 +480,7 @@
             },
             {
               "name": "r",
-              "ioValue": 297.51470325520836
+              "ioValue": 281.4107063802083
             }
           ],
           "currentEquation": "-x + r"
@@ -494,7 +494,7 @@
           "ioValues": [
             {
               "name": "t",
-              "ioValue": 59.86202509210771
+              "ioValue": 58.91893603198695
             }
           ],
           "currentEquation": "90 - t"
@@ -508,7 +508,7 @@
           "ioValues": [
             {
               "name": "rad",
-              "ioValue": 1.0447894347687412
+              "ioValue": 1.0283294255300954
             }
           ],
           "currentEquation": "rad * 180/pi"
@@ -521,7 +521,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 595.0294065104167
+              "ioValue": 562.8214127604166
             }
           ]
         },
@@ -537,7 +537,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 595.0294065104167
+              "ioValue": 562.8214127604166
             }
           ]
         },
@@ -557,7 +557,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 516.7375
+              "ioValue": 497.68749999999994
             },
             {
               "name": "zDist",
@@ -593,7 +593,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -297.51470325520836
+              "ioValue": -281.4107063802083
             },
             {
               "name": "yDist",
@@ -614,7 +614,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "intersect-move-circle-297.51470325520836--2.48529674479164-516.7375-0-move-move-rectangle-300-595.0294065104167-0--297.51470325520836-0--150-516.7375-0",
+                "geometry": "intersect-move-circle-281.4107063802083--18.589293619791704-497.68749999999994-0-move-move-rectangle-300-562.8214127604166-0--281.4107063802083-0--150-497.68749999999994-0",
                 "tags": [],
                 "color": "#aad7f2",
                 "plane": {
@@ -641,7 +641,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-0.5--150-258.36875-0",
+                "geometry": "move-circle-0.5--150-248.84374999999997-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -668,7 +668,7 @@
             {
               "name": "Shape 5",
               "ioValue": {
-                "geometry": "cut-fuse-cut-move-rectangle-300-516.7375--150-258.36875-0-rotate-move-rectangle-300-2583.6875--150-516.7375-0-0-0-30.137974907892293-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-297.51470325520836--297.51470325520836-0-0",
+                "geometry": "cut-fuse-cut-move-rectangle-300-497.68749999999994--150-248.84374999999997-0-rotate-move-rectangle-300-2488.4374999999995--150-497.68749999999994-0-0-0-31.081063968013048-move-rectangle-10-516.7375-4.999-248.84374999999997-0-move-circle-281.4107063802083--281.4107063802083-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -728,7 +728,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 258.36875,
+              "ioValue": 248.84374999999997,
               "currentEquation": "CurveHeight/2"
             },
             {
@@ -795,8 +795,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.5453074433656958,
-          "y": 0.4919168591224019,
+          "x": 0.5485436893203883,
+          "y": 0.48729792147806006,
           "uniqueID": "id-313",
           "ioValues": [
             {
@@ -826,7 +826,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 258.36875,
+              "ioValue": 248.84374999999997,
               "currentEquation": "CurveHeight/2"
             },
             {
@@ -844,7 +844,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "cut-move-rectangle-300-516.7375--150-258.36875-0-rotate-move-rectangle-300-2583.6875--150-516.7375-0-0-0-30.137974907892293",
+                "geometry": "cut-move-rectangle-300-497.68749999999994--150-248.84374999999997-0-rotate-move-rectangle-300-2488.4374999999995--150-497.68749999999994-0-0-0-31.081063968013048",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -871,7 +871,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rectangle-10-516.7375-4.999-258.36875-0",
+                "geometry": "move-rectangle-10-516.7375-4.999-248.84374999999997-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -912,9 +912,32 @@
           ],
           "readMeText": "Tis is also a patch for the edge when it gets too thin to a single point. ",
           "global": true
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.037756202804746494,
+          "y": 0.4688221709006928,
+          "uniqueID": "id-1386",
+          "name": "CH + WT",
+          "ioValues": [
+            {
+              "name": "CH",
+              "ioValue": 497.68749999999994
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "CH + WT"
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-68",
+          "ap2ID": "id-1386"
+        },
         {
           "ap2Name": "x",
           "ap1ID": "id-71",
@@ -961,9 +984,9 @@
           "ap2ID": "id-247"
         },
         {
-          "ap2Name": "y length",
+          "ap2Name": "CH",
           "ap1ID": "id-74",
-          "ap2ID": "id-313"
+          "ap2ID": "id-1386"
         },
         {
           "ap2Name": "geometry",
@@ -1149,6 +1172,11 @@
           "ap2Name": "geometry1",
           "ap1ID": "id-325",
           "ap2ID": "id-277"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-1386",
+          "ap2ID": "id-313"
         }
       ],
       "fileTypeVersion": 1
@@ -1330,7 +1358,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "fuse-cut-fuse-cut-move-rectangle-300-516.7375--150-258.36875-0-rotate-move-rectangle-300-2583.6875--150-516.7375-0-0-0-30.137974907892293-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-297.51470325520836--297.51470325520836-0-0-fuse-intersect-move-circle-297.51470325520836--2.48529674479164-516.7375-0-move-move-rectangle-300-595.0294065104167-0--297.51470325520836-0--150-516.7375-0-move-circle-0.5--150-258.36875-0",
+                "geometry": "fuse-cut-fuse-cut-move-rectangle-300-497.68749999999994--150-248.84374999999997-0-rotate-move-rectangle-300-2488.4374999999995--150-497.68749999999994-0-0-0-31.081063968013048-move-rectangle-10-497.68749999999994-4.999-248.84374999999997-0-move-circle-281.4107063802083--281.4107063802083-0-0-fuse-intersect-move-circle-281.4107063802083--18.589293619791704-497.68749999999994-0-move-move-rectangle-300-562.8214127604166-0--281.4107063802083-0--150-497.68749999999994-0-move-circle-0.5--150-248.84374999999997-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -2674,6 +2702,24 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.037756202804746494,
+      "y": 0.9353348729792148,
+      "uniqueID": "id-1380",
+      "name": "ShelfHeight - WT",
+      "ioValues": [
+        {
+          "name": "ShelfHeight",
+          "ioValue": 516.7375
+        },
+        {
+          "name": "WT",
+          "ioValue": 19.05
+        }
+      ],
+      "currentEquation": "ShelfHeight - WT"
     }
   ],
   "allConnectors": [
@@ -2713,14 +2759,19 @@
       "ap2ID": "id-478"
     },
     {
-      "ap2Name": "CurveHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-64"
+      "ap2Name": "WT",
+      "ap1ID": "id-37",
+      "ap2ID": "id-1380"
     },
     {
       "ap2Name": "ShelfHeight",
       "ap1ID": "id-43",
       "ap2ID": "id-478"
+    },
+    {
+      "ap2Name": "ShelfHeight",
+      "ap1ID": "id-43",
+      "ap2ID": "id-1380"
     },
     {
       "ap2Name": "value",
@@ -2736,6 +2787,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-478",
       "ap2ID": "id-13"
+    },
+    {
+      "ap2Name": "CurveHeight",
+      "ap1ID": "id-1380",
+      "ap2ID": "id-64"
     }
   ],
   "unitsKey": "MM",
