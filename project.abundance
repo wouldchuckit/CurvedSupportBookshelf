@@ -2501,18 +2501,18 @@
           "x": 0.4433656957928803,
           "y": 0.9630484988452656,
           "uniqueID": "id-1781",
-          "name": "x + y",
+          "name": "i * (2*TW/10) + (i-1)(4*TW/10)",
           "ioValues": [
             {
-              "name": "x",
+              "name": "i",
               "ioValue": 1
             },
             {
-              "name": "y",
+              "name": "TW",
               "ioValue": 1
             }
           ],
-          "currentEquation": "x + y"
+          "currentEquation": "i * (2*TW/10) + (i-1)(4*TW/10)"
         }
       ],
       "allConnectors": [
