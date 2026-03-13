@@ -16,7 +16,7 @@ Curve made of two tangent circles for shelf supports. Functions until the length
 
 Tis is also a patch for the edge when it gets too thin to a single point.  
 
-![readme](/readmeid-330.svg?v=szueer)
+![readme](/readmeid-330.svg?v=1o4ugy)
 
 
 
@@ -28,7 +28,7 @@ This is single point patch to cover the inflection point where the two circles m
 
 Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height 
 
-![readme](/readmeid-332.svg?v=litj2n)
+![readme](/readmeid-332.svg?v=ixb2ph)
 
 
 

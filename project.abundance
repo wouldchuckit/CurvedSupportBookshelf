@@ -607,8 +607,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.8570658036677453,
-          "y": 0.4341801385681293,
+          "x": 0.8689320388349514,
+          "y": 0.48729792147806006,
           "uniqueID": "id-272",
           "ioValues": [
             {
@@ -668,7 +668,7 @@
             {
               "name": "Shape 5",
               "ioValue": {
-                "geometry": "cut-fuse-cut-move-rectangle-300-497.68749999999994--150-248.84374999999997-0-rotate-move-rectangle-300-2488.4374999999995--150-497.68749999999994-0-0-0-31.081063968013048-move-rectangle-10-516.7375-4.999-248.84374999999997-0-move-circle-281.4107063802083--281.4107063802083-0-0",
+                "geometry": "cut-fuse-cut-move-rectangle-300-497.68749999999994--150-248.84374999999997-0-rotate-move-rectangle-300-2488.4374999999995--150-497.68749999999994-0-0-0-31.081063968013048-move-rectangle-10-516.7375-4.999-239.31874999999997-0-move-circle-281.4107063802083--281.4107063802083-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -826,8 +826,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 248.84374999999997,
-              "currentEquation": "CurveHeight/2"
+              "ioValue": 239.31874999999997,
+              "currentEquation": "CurveHeight/2 - WoodThick/2"
             },
             {
               "name": "zDist",
@@ -871,7 +871,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rectangle-10-516.7375-4.999-248.84374999999997-0",
+                "geometry": "move-rectangle-10-516.7375-4.999-239.31874999999997-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -930,6 +930,30 @@
             }
           ],
           "currentEquation": "CH + WT"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.9196332254584682,
+          "y": 0.348729792147806,
+          "uniqueID": "id-1398",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 19.05
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -937,6 +961,11 @@
           "ap2Name": "WT",
           "ap1ID": "id-68",
           "ap2ID": "id-1386"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-68",
+          "ap2ID": "id-1398"
         },
         {
           "ap2Name": "x",
@@ -1124,9 +1153,9 @@
           "ap2ID": "id-277"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-272",
-          "ap2ID": "id-66"
+          "ap2ID": "id-1398"
         },
         {
           "ap2Name": "Shape 5",
@@ -1177,6 +1206,11 @@
           "ap2Name": "y length",
           "ap1ID": "id-1386",
           "ap2ID": "id-313"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1398",
+          "ap2ID": "id-66"
         }
       ],
       "fileTypeVersion": 1
@@ -1358,7 +1392,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "fuse-cut-fuse-cut-move-rectangle-300-497.68749999999994--150-248.84374999999997-0-rotate-move-rectangle-300-2488.4374999999995--150-497.68749999999994-0-0-0-31.081063968013048-move-rectangle-10-497.68749999999994-4.999-248.84374999999997-0-move-circle-281.4107063802083--281.4107063802083-0-0-fuse-intersect-move-circle-281.4107063802083--18.589293619791704-497.68749999999994-0-move-move-rectangle-300-562.8214127604166-0--281.4107063802083-0--150-497.68749999999994-0-move-circle-0.5--150-248.84374999999997-0",
+                "geometry": "move-fuse-cut-fuse-cut-move-rectangle-300-497.68749999999994--150-248.84374999999997-0-rotate-move-rectangle-300-2488.4374999999995--150-497.68749999999994-0-0-0-31.081063968013048-move-rectangle-10-516.7375-4.999-239.31874999999997-0-move-circle-281.4107063802083--281.4107063802083-0-0-fuse-intersect-move-circle-281.4107063802083--18.589293619791704-497.68749999999994-0-move-move-rectangle-300-562.8214127604166-0--281.4107063802083-0--150-497.68749999999994-0-move-circle-0.5--150-248.84374999999997-0-0-19.05-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
