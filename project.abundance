@@ -2369,6 +2369,70 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04314994606256742,
+          "y": 0.9053117782909931,
+          "uniqueID": "id-1734",
+          "name": "SI%2",
+          "ioValues": [
+            {
+              "name": "SI",
+              "ioValue": 0
+            }
+          ],
+          "currentEquation": "SI%2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2621359223300971,
+          "y": 0.8937644341801385,
+          "uniqueID": "id-1739",
+          "name": "(TW- 2*WT)/10",
+          "ioValues": [
+            {
+              "name": "TW",
+              "ioValue": 1000
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "(TW- 2*WT)/10"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2637540453074434,
+          "y": 0.766743648960739,
+          "uniqueID": "id-1743",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 19.05
+            },
+            {
+              "name": "y length",
+              "ioValue": 96.19
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3176914778856526,
+          "y": 0.7644341801385681,
+          "uniqueID": "id-1749",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 19.05
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2438,6 +2502,21 @@
           "ap2ID": "id-1050"
         },
         {
+          "ap2Name": "x length",
+          "ap1ID": "id-491",
+          "ap2ID": "id-1743"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-491",
+          "ap2ID": "id-1739"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-491",
+          "ap2ID": "id-1749"
+        },
+        {
           "ap2Name": "TD",
           "ap1ID": "id-494",
           "ap2ID": "id-821"
@@ -2476,6 +2555,11 @@
           "ap2Name": "yDist",
           "ap1ID": "id-497",
           "ap2ID": "id-1038"
+        },
+        {
+          "ap2Name": "TW",
+          "ap1ID": "id-497",
+          "ap2ID": "id-1739"
         },
         {
           "ap2Name": "geometry",
@@ -2546,6 +2630,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-582",
           "ap2ID": "id-575"
+        },
+        {
+          "ap2Name": "SI",
+          "ap1ID": "id-592",
+          "ap2ID": "id-1734"
         },
         {
           "ap2Name": "Shape 3",
@@ -2751,6 +2840,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-913",
           "ap2ID": "id-869"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-1739",
+          "ap2ID": "id-1743"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1743",
+          "ap2ID": "id-1749"
         }
       ],
       "fileTypeVersion": 1
