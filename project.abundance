@@ -2093,6 +2093,29 @@
           "tags": [
             "Back"
           ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7826321467098165,
+          "y": 0.5750577367205543,
+          "uniqueID": "id-993",
+          "ioValues": []
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.5852211434735707,
+          "y": 0.5912240184757506,
+          "uniqueID": "id-996",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2375,6 +2398,11 @@
           "ap2Name": "Shape 5",
           "ap1ID": "id-990",
           "ap2ID": "id-608"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-993",
+          "ap2ID": "id-986"
         }
       ],
       "fileTypeVersion": 1
