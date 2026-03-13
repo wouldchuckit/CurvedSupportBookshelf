@@ -2488,7 +2488,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": -400
             },
             {
               "name": "zDist",
@@ -2498,18 +2498,18 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.4433656957928803,
-          "y": 0.9630484988452656,
+          "x": 0.3959007551240561,
+          "y": 0.951501154734411,
           "uniqueID": "id-1781",
           "name": "i * (2*TW/10) + (i-1)(4*TW/10)",
           "ioValues": [
             {
               "name": "i",
-              "ioValue": 1
+              "ioValue": 0
             },
             {
               "name": "TW",
-              "ioValue": 1
+              "ioValue": 1000
             }
           ],
           "currentEquation": "i * (2*TW/10) + (i-1)(4*TW/10)"
@@ -2640,6 +2640,11 @@
           "ap2Name": "TW",
           "ap1ID": "id-497",
           "ap2ID": "id-1739"
+        },
+        {
+          "ap2Name": "TW",
+          "ap1ID": "id-497",
+          "ap2ID": "id-1781"
         },
         {
           "ap2Name": "geometry",
@@ -2960,6 +2965,11 @@
           "ap2Name": "yDist",
           "ap1ID": "id-1759",
           "ap2ID": "id-1753"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-1781",
+          "ap2ID": "id-1769"
         }
       ],
       "fileTypeVersion": 1
