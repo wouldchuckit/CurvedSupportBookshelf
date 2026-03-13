@@ -1236,8 +1236,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1499460625674218,
-      "y": 0.4965357967667437,
+      "x": 0.30097087378640774,
+      "y": 0.9099307159353348,
       "uniqueID": "id-478",
       "name": "ShelfSection",
       "ioValues": [
@@ -3197,8 +3197,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2826321467098166,
-      "y": 0.7990762124711317,
+      "x": 0.284789644012945,
+      "y": 0.8013856812933026,
       "uniqueID": "id-1842",
       "name": "ShelfSection",
       "ioValues": [
@@ -3228,7 +3228,7 @@
         },
         {
           "name": "ShelfIndex",
-          "ioValue": 0
+          "ioValue": 2
         },
         {
           "name": "ScrewDiameter",
@@ -4096,7 +4096,7 @@
           "ioValues": [
             {
               "name": "SI",
-              "ioValue": 0
+              "ioValue": 2
             }
           ],
           "currentEquation": "SI%2"
@@ -5015,7 +5015,7 @@
     {
       "atomType": "Molecule",
       "x": 0.284789644012945,
-      "y": 0.7159353348729792,
+      "y": 0.7113163972286374,
       "uniqueID": "id-2134",
       "name": "ShelfSection",
       "ioValues": [
@@ -16285,6 +16285,11 @@
       "ap2Name": "i",
       "ap1ID": "id-1819",
       "ap2ID": "id-1824"
+    },
+    {
+      "ap2Name": "ShelfIndex",
+      "ap1ID": "id-1819",
+      "ap2ID": "id-1842"
     },
     {
       "ap2Name": "i",
