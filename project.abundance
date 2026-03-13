@@ -1559,8 +1559,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6720604099244877,
-          "y": 0.23787528868360275,
+          "x": 0.6779935275080906,
+          "y": 0.22170900692840645,
           "uniqueID": "id-575",
           "ioValues": [
             {
@@ -1934,6 +1934,14 @@
             {
               "name": "Shape 2",
               "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
             }
           ]
         },
@@ -2033,8 +2041,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5701186623516721,
-          "y": 0.5173210161662818,
+          "x": 0.5706580366774541,
+          "y": 0.5334872979214781,
           "uniqueID": "id-1032",
           "ioValues": [
             {
@@ -2488,7 +2496,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 400
+              "ioValue": 200
             },
             {
               "name": "zDist",
@@ -2505,7 +2513,7 @@
           "ioValues": [
             {
               "name": "i",
-              "ioValue": 1
+              "ioValue": 0
             },
             {
               "name": "TW",
@@ -2516,8 +2524,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5129449838187702,
-          "y": 0.8406466512702079,
+          "x": 0.5172599784250269,
+          "y": 0.8267898383371823,
           "uniqueID": "id-1787",
           "ioValues": [
             {
@@ -2530,13 +2538,27 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 400
             },
             {
               "name": "zDist",
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.48274002157497303,
+          "y": 0.951501154734411,
+          "uniqueID": "id-1793",
+          "name": "4*TW/10",
+          "ioValues": [
+            {
+              "name": "TW",
+              "ioValue": 1000
+            }
+          ],
+          "currentEquation": "4*TW/10"
         }
       ],
       "allConnectors": [
@@ -2669,6 +2691,11 @@
           "ap2Name": "TW",
           "ap1ID": "id-497",
           "ap2ID": "id-1781"
+        },
+        {
+          "ap2Name": "TW",
+          "ap1ID": "id-497",
+          "ap2ID": "id-1793"
         },
         {
           "ap2Name": "geometry",
@@ -2961,6 +2988,11 @@
           "ap2ID": "id-869"
         },
         {
+          "ap2Name": "i",
+          "ap1ID": "id-1734",
+          "ap2ID": "id-1781"
+        },
+        {
           "ap2Name": "y length",
           "ap1ID": "id-1739",
           "ap2ID": "id-1743"
@@ -2996,9 +3028,24 @@
           "ap2ID": "id-1787"
         },
         {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-1769",
+          "ap2ID": "id-993"
+        },
+        {
           "ap2Name": "yDist",
           "ap1ID": "id-1781",
           "ap2ID": "id-1769"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-1787",
+          "ap2ID": "id-993"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-1793",
+          "ap2ID": "id-1787"
         }
       ],
       "fileTypeVersion": 1
