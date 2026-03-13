@@ -39,11 +39,11 @@
     },
     {
       "name": "ScrewShaft",
-      "ioValue": 10
+      "ioValue": 2
     },
     {
       "name": "ScrewHead",
-      "ioValue": 10
+      "ioValue": 5
     }
   ],
   "topLevel": true,
@@ -3081,6 +3081,44 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.209277238403452,
+      "y": 0.7967667436489608,
+      "uniqueID": "id-1808",
+      "name": "BH",
+      "ioValues": [
+        {
+          "name": "BH",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "BH"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.26537216828478966,
+      "y": 0.8036951501154734,
+      "uniqueID": "id-1812",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -3133,6 +3171,16 @@
       "ap2Name": "ShelfHeight",
       "ap1ID": "id-43",
       "ap2ID": "id-1380"
+    },
+    {
+      "ap2Name": "ScrewDiameter",
+      "ap1ID": "id-586",
+      "ap2ID": "id-478"
+    },
+    {
+      "ap2Name": "ScrewHead",
+      "ap1ID": "id-589",
+      "ap2ID": "id-478"
     },
     {
       "ap2Name": "CurveHeight",
