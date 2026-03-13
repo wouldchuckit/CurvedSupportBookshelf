@@ -126,8 +126,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.12243797195253506,
-      "y": 0.3648960739030023,
+      "x": 0.09978425026968717,
+      "y": 0.325635103926097,
       "uniqueID": "id-332",
       "name": "README",
       "ioValues": [
@@ -141,8 +141,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.11326860841423947,
-      "y": 0.9122401847575057,
+      "x": 0.09385113268608414,
+      "y": 0.930715935334873,
       "uniqueID": "id-334",
       "name": "README",
       "ioValues": [
@@ -188,8 +188,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1262135922330097,
-      "y": 0.19399538106235564,
+      "x": 0.09439050701186623,
+      "y": 0.18706697459584296,
       "uniqueID": "id-64",
       "name": "Curve",
       "ioValues": [
@@ -1235,8 +1235,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.22545846817691478,
-      "y": 0.5127020785219399,
+      "x": 0.1499460625674218,
+      "y": 0.4965357967667437,
       "uniqueID": "id-478",
       "name": "ShelfSection",
       "ioValues": [
@@ -3049,6 +3049,38 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.20873786407766992,
+      "y": 0.9237875288683602,
+      "uniqueID": "id-1800",
+      "name": "ShelfIndexONE",
+      "value": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.2626752966558792,
+      "y": 0.9284064665127021,
+      "uniqueID": "id-1802",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
