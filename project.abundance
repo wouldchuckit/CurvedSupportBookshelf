@@ -1276,6 +1276,10 @@
         {
           "name": "ScrewHead",
           "ioValue": 5
+        },
+        {
+          "name": "ShelfNumber",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -2560,6 +2564,21 @@
             }
           ],
           "currentEquation": "5*TW/10"
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.598705501618123,
+          "y": 0.7321016166281755,
+          "uniqueID": "id-3886",
+          "name": "test",
+          "value": 10
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.7040000000000002,
+          "uniqueID": "id-3888",
+          "name": "ShelfNumber"
         }
       ],
       "allConnectors": [
