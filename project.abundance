@@ -1513,14 +1513,6 @@
           "name": "ShelfIndex"
         },
         {
-          "atomType": "Equation",
-          "x": 0.06796116504854369,
-          "y": 0.7136258660508084,
-          "uniqueID": "id-595",
-          "name": "11%5",
-          "currentEquation": "11%5"
-        },
-        {
           "atomType": "Tag",
           "x": 0.5442286947141316,
           "y": 0.24018475750577367,
