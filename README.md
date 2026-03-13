@@ -26,7 +26,11 @@ This is single point patch to cover the inflection point where the two circles m
 
 
 
-Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height
+Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height 
+
+![readme](/readmeid-332.svg?v=n83yr3w)
+
+
 
 Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
 

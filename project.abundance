@@ -126,8 +126,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.133764832793959,
-      "y": 0.371824480369515,
+      "x": 0.12243797195253506,
+      "y": 0.3648960739030023,
       "uniqueID": "id-332",
       "name": "README",
       "ioValues": [
@@ -1155,8 +1155,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.30258899676375406,
-      "y": 0.5080831408775981,
+      "x": 0.22545846817691478,
+      "y": 0.5127020785219399,
       "uniqueID": "id-478",
       "name": "ShelfSection",
       "ioValues": [
@@ -1329,7 +1329,30 @@
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "fuse-cut-fuse-cut-move-rectangle-300-516.7375--150-258.36875-0-rotate-move-rectangle-300-2583.6875--150-516.7375-0-0-0-30.137974907892293-move-rectangle-10-516.7375-4.999-258.36875-0-move-circle-297.51470325520836--297.51470325520836-0-0-fuse-intersect-move-circle-297.51470325520836--2.48529674479164-516.7375-0-move-move-rectangle-300-595.0294065104167-0--297.51470325520836-0--150-516.7375-0-move-circle-0.5--150-258.36875-0",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "2D"
+              }
             }
           ],
           "unionType": "Fusion"
