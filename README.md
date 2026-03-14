@@ -16,9 +16,13 @@ This is single point patch to cover the inflection point where the two circles m
 
 This shelf stack is currently designed to go from 1 to 8 shelves. You could add more by copying these two atoms. 
 
+**Value:** 8
+
 Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height
 
 Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
+
+**Value:** 5
 
 
 
