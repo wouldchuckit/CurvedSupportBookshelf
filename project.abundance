@@ -1341,6 +1341,123 @@
     },
     {
       "atomType": "Molecule",
+      "x": 0.3629989212513484,
+      "y": 0.348729792147806,
+      "uniqueID": "id-4287",
+      "name": "Molecule",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 0
+        },
+        {
+          "name": "ShelfSection",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "ShelfHeight",
+          "ioValue": 516.7375
+        },
+        {
+          "name": "ShelfNumber",
+          "ioValue": 4
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-4289",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-4291",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-4294",
+          "name": "ShelfSection",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-4297",
+          "name": "ShelfHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-4300",
+          "name": "ShelfNumber"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.12567421790722763,
+          "y": 0.394919168591224,
+          "uniqueID": "id-4759",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 12
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.21574973031283712,
+          "y": 0.4503464203233256,
+          "uniqueID": "id-4763",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 67
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-4759",
+          "ap2ID": "id-4763"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
       "x": 0.15803667745415317,
       "y": 0.5011547344110855,
       "uniqueID": "id-478",
@@ -3163,123 +3280,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-913",
           "ap2ID": "id-869"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.3629989212513484,
-      "y": 0.348729792147806,
-      "uniqueID": "id-4287",
-      "name": "Molecule",
-      "ioValues": [
-        {
-          "name": "index",
-          "ioValue": 0
-        },
-        {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 516.7375
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 4
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-4289",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-4291",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-4294",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-4297",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-4300",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.12567421790722763,
-          "y": 0.394919168591224,
-          "uniqueID": "id-4759",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10
-            },
-            {
-              "name": "y length",
-              "ioValue": 12
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.21574973031283712,
-          "y": 0.4503464203233256,
-          "uniqueID": "id-4763",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 67
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-4759",
-          "ap2ID": "id-4763"
         }
       ],
       "fileTypeVersion": 1
