@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 300
+      "ioValue": 300,
+      "currentEquation": "300"
     },
     {
       "name": "ShelfNumber",
@@ -4600,8 +4601,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.43635382955771307,
-      "y": 0.789838337182448,
+      "x": 0.44983818770226536,
+      "y": 0.7990762124711317,
       "uniqueID": "id-6474",
       "name": "ShelfSection",
       "ioValues": [
@@ -4611,7 +4612,7 @@
         },
         {
           "name": "ShelfHeight",
-          "ioValue": 413.39
+          "ioValue": 10
         },
         {
           "name": "WoodThick",
@@ -4698,8 +4699,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.1208198489751888,
-          "y": 0.14318706697459585,
+          "x": 0.1121898597626753,
+          "y": 0.18937644341801385,
           "uniqueID": "id-6481",
           "ioValues": [
             {
@@ -4708,7 +4709,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 413.39
+              "ioValue": 10
             }
           ]
         },
@@ -4735,7 +4736,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 206.695
+              "ioValue": 5
             },
             {
               "name": "zDist",
@@ -4752,7 +4753,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rectangle-300-413.39-150-206.695-0",
+                "geometry": "move-rectangle-300-10-150-5-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -5047,8 +5048,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.03236245954692557,
-          "y": 0.76905311778291,
+          "x": 0.035059331175836025,
+          "y": 0.8198614318706698,
           "uniqueID": "id-6498",
           "name": "TD-CW",
           "ioValues": [
@@ -5086,7 +5087,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 413.39
+              "ioValue": 10
             }
           ],
           "currentEquation": "y/2"
@@ -5212,7 +5213,7 @@
             },
             {
               "name": "height",
-              "ioValue": 413.39
+              "ioValue": 10
             }
           ]
         },
@@ -5342,7 +5343,7 @@
             },
             {
               "name": "height",
-              "ioValue": 206.695
+              "ioValue": 5
             }
           ]
         },
@@ -5496,8 +5497,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.04314994606256742,
-          "y": 0.9053117782909931,
+          "x": 0.03290183387270766,
+          "y": 0.9376443418013856,
           "uniqueID": "id-6524",
           "name": "SI%2",
           "ioValues": [
@@ -8425,11 +8426,6 @@
       "ap2Name": "ShelfHeight",
       "ap1ID": "id-43",
       "ap2ID": "id-5858"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-6474"
     },
     {
       "ap2Name": "ShelfHeight",
