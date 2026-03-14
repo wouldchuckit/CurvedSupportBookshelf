@@ -10,25 +10,29 @@
 
 Curve made of two tangent circles for shelf supports. Functions until the length is about 3 times the height.  
 
-![readme](/readmeid-303.svg?v=2kk3ea)
+![readme](/readmeid-303.svg?v=nilpgq2)
 
 
 
 Tis is also a patch for the edge when it gets too thin to a single point.  
 
-![readme](/readmeid-330.svg?v=1o4ugy)
+![readme](/readmeid-330.svg?v=nilpgq2)
 
 
 
 This is single point patch to cover the inflection point where the two circles meet. The Circles worked independently but when they were both trying to act on the same point it crashed 
 
-![readme](/readmeid-301.svg?v=618nf3)
+![readme](/readmeid-301.svg?v=nilpgq2)
 
 
+
+This shelf stack is currently designed to go from 1 to 8 shelves. You could add more by copying these two atoms. 
+
+**Value:** 8
 
 Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height 
 
-![readme](/readmeid-332.svg?v=ixb2ph)
+![readme](/readmeid-332.svg?v=nilpgq2)
 
 
 
