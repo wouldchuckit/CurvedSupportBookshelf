@@ -3592,7 +3592,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-0.5--100-199.075-0",
+                "geometry": "move-polysides-1-6--100-199.075-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -3690,8 +3690,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.6898597626752966,
-          "y": 0.8452655889145496,
+          "x": 0.6601941747572816,
+          "y": 0.8521939953810623,
           "uniqueID": "id-298",
           "ioValues": [
             {
@@ -3904,6 +3904,22 @@
             {
               "name": "zDist",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "RegularPolygon",
+          "x": 0.7055016181229773,
+          "y": 0.9006928406466512,
+          "uniqueID": "id-11082",
+          "ioValues": [
+            {
+              "name": "number of sides",
+              "ioValue": 6
+            },
+            {
+              "name": "diameter",
+              "ioValue": 2
             }
           ]
         }
@@ -4125,11 +4141,6 @@
           "ap2ID": "id-301"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-298",
-          "ap2ID": "id-290"
-        },
-        {
           "ap2Name": "xDist",
           "ap1ID": "id-305",
           "ap2ID": "id-247"
@@ -4163,6 +4174,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1398",
           "ap2ID": "id-66"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11082",
+          "ap2ID": "id-290"
         }
       ],
       "fileTypeVersion": 1
