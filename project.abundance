@@ -2623,6 +2623,10 @@
         {
           "name": "Shape 4",
           "ioValue": null
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": null
         }
       ]
     },
@@ -3734,8 +3738,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.284789644012945,
-      "y": 0.9168591224018476,
+      "x": 0.27831715210355984,
+      "y": 0.9191685912240185,
       "uniqueID": "id-4287",
       "name": "ShelfLevel",
       "ioValues": [
@@ -9606,8 +9610,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.5215749730312838,
-      "y": 0.8614318706697459,
+      "x": 0.5253505933117584,
+      "y": 0.8198614318706698,
       "uniqueID": "id-11070",
       "name": "Extract Tag",
       "ioValues": [
@@ -9721,8 +9725,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5938511326860841,
-      "y": 0.8683602771362586,
+      "x": 0.5970873786407767,
+      "y": 0.8175519630484989,
       "uniqueID": "id-11111",
       "ioValues": [
         {
@@ -9876,8 +9880,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7400215749730312,
-      "y": 0.8244803695150116,
+      "x": 0.7222222222222222,
+      "y": 0.9122401847575057,
       "uniqueID": "id-11145",
       "name": "VertPosition",
       "ioValues": [
@@ -9947,8 +9951,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.743797195253506,
-          "y": 0.5103926096997691,
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
           "uniqueID": "id-11151",
           "ioValues": [
             {
@@ -10068,8 +10072,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.7475728155339807,
-      "y": 0.9399538106235567,
+      "x": 0.5900755124056095,
+      "y": 0.9491916859122402,
       "uniqueID": "id-11424",
       "name": "TW/VN",
       "ioValues": [
@@ -10083,6 +10087,1357 @@
         }
       ],
       "currentEquation": "TW/VN"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7583603020496225,
+      "y": 0.8036951501154734,
+      "uniqueID": "id-11435",
+      "name": "VertPosition",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 2
+        },
+        {
+          "name": "VertPanel",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Spacing",
+          "ioValue": 200
+        },
+        {
+          "name": "Vert_Number",
+          "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11436",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-11437",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-11438",
+          "name": "VertPanel",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-11439",
+          "name": "Spacing"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-11440",
+          "name": "Vert_Number"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
+          "uniqueID": "id-11441",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 190.475
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
+          "uniqueID": "id-11442",
+          "name": "SN > i >1",
+          "ioValues": [
+            {
+              "name": "SN",
+              "ioValue": 5
+            },
+            {
+              "name": "i",
+              "ioValue": 2
+            }
+          ],
+          "currentEquation": "SN > i >1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-11443",
+          "name": "t *( (i-1) * SP - .5*WT)",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 2
+            },
+            {
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11444",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11437",
+          "ap2ID": "id-11442"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11437",
+          "ap2ID": "id-11443"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11438",
+          "ap2ID": "id-11441"
+        },
+        {
+          "ap2Name": "SP",
+          "ap1ID": "id-11439",
+          "ap2ID": "id-11443"
+        },
+        {
+          "ap2Name": "SN",
+          "ap1ID": "id-11440",
+          "ap2ID": "id-11442"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11441",
+          "ap2ID": "id-11436"
+        },
+        {
+          "ap2Name": "t",
+          "ap1ID": "id-11442",
+          "ap2ID": "id-11443"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-11443",
+          "ap2ID": "id-11441"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11444",
+          "ap2ID": "id-11443"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7254584681769147,
+      "y": 0.7113163972286374,
+      "uniqueID": "id-11472",
+      "name": "VertPosition",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 3
+        },
+        {
+          "name": "VertPanel",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Spacing",
+          "ioValue": 200
+        },
+        {
+          "name": "Vert_Number",
+          "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11473",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-11474",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-11475",
+          "name": "VertPanel",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-11476",
+          "name": "Spacing"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-11477",
+          "name": "Vert_Number"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
+          "uniqueID": "id-11478",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 390.475
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
+          "uniqueID": "id-11479",
+          "name": "SN > i >1",
+          "ioValues": [
+            {
+              "name": "SN",
+              "ioValue": 5
+            },
+            {
+              "name": "i",
+              "ioValue": 3
+            }
+          ],
+          "currentEquation": "SN > i >1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-11480",
+          "name": "t *( (i-1) * SP - .5*WT)",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 3
+            },
+            {
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11481",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11474",
+          "ap2ID": "id-11479"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11474",
+          "ap2ID": "id-11480"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11475",
+          "ap2ID": "id-11478"
+        },
+        {
+          "ap2Name": "SP",
+          "ap1ID": "id-11476",
+          "ap2ID": "id-11480"
+        },
+        {
+          "ap2Name": "SN",
+          "ap1ID": "id-11477",
+          "ap2ID": "id-11479"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11478",
+          "ap2ID": "id-11473"
+        },
+        {
+          "ap2Name": "t",
+          "ap1ID": "id-11479",
+          "ap2ID": "id-11480"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-11480",
+          "ap2ID": "id-11478"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11481",
+          "ap2ID": "id-11480"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7588996763754046,
+      "y": 0.584295612009238,
+      "uniqueID": "id-11509",
+      "name": "VertPosition",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 4
+        },
+        {
+          "name": "VertPanel",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Spacing",
+          "ioValue": 200
+        },
+        {
+          "name": "Vert_Number",
+          "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11510",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-11511",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-11512",
+          "name": "VertPanel",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-11513",
+          "name": "Spacing"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-11514",
+          "name": "Vert_Number"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
+          "uniqueID": "id-11515",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 590.475
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
+          "uniqueID": "id-11516",
+          "name": "SN > i >1",
+          "ioValues": [
+            {
+              "name": "SN",
+              "ioValue": 5
+            },
+            {
+              "name": "i",
+              "ioValue": 4
+            }
+          ],
+          "currentEquation": "SN > i >1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-11517",
+          "name": "t *( (i-1) * SP - .5*WT)",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 4
+            },
+            {
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11518",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11511",
+          "ap2ID": "id-11516"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11511",
+          "ap2ID": "id-11517"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11512",
+          "ap2ID": "id-11515"
+        },
+        {
+          "ap2Name": "SP",
+          "ap1ID": "id-11513",
+          "ap2ID": "id-11517"
+        },
+        {
+          "ap2Name": "SN",
+          "ap1ID": "id-11514",
+          "ap2ID": "id-11516"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11515",
+          "ap2ID": "id-11510"
+        },
+        {
+          "ap2Name": "t",
+          "ap1ID": "id-11516",
+          "ap2ID": "id-11517"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-11517",
+          "ap2ID": "id-11515"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11518",
+          "ap2ID": "id-11517"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7276159654800431,
+      "y": 0.5057736720554272,
+      "uniqueID": "id-11546",
+      "name": "VertPosition",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 5
+        },
+        {
+          "name": "VertPanel",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Spacing",
+          "ioValue": 200
+        },
+        {
+          "name": "Vert_Number",
+          "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11547",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-11548",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-11549",
+          "name": "VertPanel",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-11550",
+          "name": "Spacing"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-11551",
+          "name": "Vert_Number"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
+          "uniqueID": "id-11552",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
+          "uniqueID": "id-11553",
+          "name": "SN > i >1",
+          "ioValues": [
+            {
+              "name": "SN",
+              "ioValue": 5
+            },
+            {
+              "name": "i",
+              "ioValue": 5
+            }
+          ],
+          "currentEquation": "SN > i >1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-11554",
+          "name": "t *( (i-1) * SP - .5*WT)",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 5
+            },
+            {
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11555",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11548",
+          "ap2ID": "id-11553"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11548",
+          "ap2ID": "id-11554"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11549",
+          "ap2ID": "id-11552"
+        },
+        {
+          "ap2Name": "SP",
+          "ap1ID": "id-11550",
+          "ap2ID": "id-11554"
+        },
+        {
+          "ap2Name": "SN",
+          "ap1ID": "id-11551",
+          "ap2ID": "id-11553"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11552",
+          "ap2ID": "id-11547"
+        },
+        {
+          "ap2Name": "t",
+          "ap1ID": "id-11553",
+          "ap2ID": "id-11554"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-11554",
+          "ap2ID": "id-11552"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11555",
+          "ap2ID": "id-11554"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.761057173678533,
+      "y": 0.3856812933025404,
+      "uniqueID": "id-11583",
+      "name": "VertPosition",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 6
+        },
+        {
+          "name": "VertPanel",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Spacing",
+          "ioValue": 200
+        },
+        {
+          "name": "Vert_Number",
+          "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11584",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-11585",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-11586",
+          "name": "VertPanel",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-11587",
+          "name": "Spacing"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-11588",
+          "name": "Vert_Number"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
+          "uniqueID": "id-11589",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
+          "uniqueID": "id-11590",
+          "name": "SN > i >1",
+          "ioValues": [
+            {
+              "name": "SN",
+              "ioValue": 5
+            },
+            {
+              "name": "i",
+              "ioValue": 6
+            }
+          ],
+          "currentEquation": "SN > i >1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-11591",
+          "name": "t *( (i-1) * SP - .5*WT)",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 6
+            },
+            {
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11592",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11585",
+          "ap2ID": "id-11590"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11585",
+          "ap2ID": "id-11591"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11586",
+          "ap2ID": "id-11589"
+        },
+        {
+          "ap2Name": "SP",
+          "ap1ID": "id-11587",
+          "ap2ID": "id-11591"
+        },
+        {
+          "ap2Name": "SN",
+          "ap1ID": "id-11588",
+          "ap2ID": "id-11590"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11589",
+          "ap2ID": "id-11584"
+        },
+        {
+          "ap2Name": "t",
+          "ap1ID": "id-11590",
+          "ap2ID": "id-11591"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-11591",
+          "ap2ID": "id-11589"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11592",
+          "ap2ID": "id-11591"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7265372168284789,
+      "y": 0.3348729792147806,
+      "uniqueID": "id-11620",
+      "name": "VertPosition",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 7
+        },
+        {
+          "name": "VertPanel",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Spacing",
+          "ioValue": 200
+        },
+        {
+          "name": "Vert_Number",
+          "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11621",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-11622",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-11623",
+          "name": "VertPanel",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-11624",
+          "name": "Spacing"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-11625",
+          "name": "Vert_Number"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
+          "uniqueID": "id-11626",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
+          "uniqueID": "id-11627",
+          "name": "SN > i >1",
+          "ioValues": [
+            {
+              "name": "SN",
+              "ioValue": 5
+            },
+            {
+              "name": "i",
+              "ioValue": 7
+            }
+          ],
+          "currentEquation": "SN > i >1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-11628",
+          "name": "t *( (i-1) * SP - .5*WT)",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 7
+            },
+            {
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11629",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11622",
+          "ap2ID": "id-11627"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11622",
+          "ap2ID": "id-11628"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11623",
+          "ap2ID": "id-11626"
+        },
+        {
+          "ap2Name": "SP",
+          "ap1ID": "id-11624",
+          "ap2ID": "id-11628"
+        },
+        {
+          "ap2Name": "SN",
+          "ap1ID": "id-11625",
+          "ap2ID": "id-11627"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11626",
+          "ap2ID": "id-11621"
+        },
+        {
+          "ap2Name": "t",
+          "ap1ID": "id-11627",
+          "ap2ID": "id-11628"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-11628",
+          "ap2ID": "id-11626"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11629",
+          "ap2ID": "id-11628"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7642934196332255,
+      "y": 0.18244803695150116,
+      "uniqueID": "id-11657",
+      "name": "VertPosition",
+      "ioValues": [
+        {
+          "name": "index",
+          "ioValue": 8
+        },
+        {
+          "name": "VertPanel",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Spacing",
+          "ioValue": 200
+        },
+        {
+          "name": "Vert_Number",
+          "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11658",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-11659",
+          "name": "index"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-11660",
+          "name": "VertPanel",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-11661",
+          "name": "Spacing"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-11662",
+          "name": "Vert_Number"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5706580366774541,
+          "y": 0.3464203233256351,
+          "uniqueID": "id-11663",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
+          "uniqueID": "id-11664",
+          "name": "SN > i >1",
+          "ioValues": [
+            {
+              "name": "SN",
+              "ioValue": 5
+            },
+            {
+              "name": "i",
+              "ioValue": 8
+            }
+          ],
+          "currentEquation": "SN > i >1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-11665",
+          "name": "t *( (i-1) * SP - .5*WT)",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 8
+            },
+            {
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11666",
+          "name": "WoodThick"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11659",
+          "ap2ID": "id-11664"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-11659",
+          "ap2ID": "id-11665"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11660",
+          "ap2ID": "id-11663"
+        },
+        {
+          "ap2Name": "SP",
+          "ap1ID": "id-11661",
+          "ap2ID": "id-11665"
+        },
+        {
+          "ap2Name": "SN",
+          "ap1ID": "id-11662",
+          "ap2ID": "id-11664"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11663",
+          "ap2ID": "id-11658"
+        },
+        {
+          "ap2Name": "t",
+          "ap1ID": "id-11664",
+          "ap2ID": "id-11665"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-11665",
+          "ap2ID": "id-11663"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11666",
+          "ap2ID": "id-11665"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8106796116504855,
+      "y": 0.7159353348729792,
+      "uniqueID": "id-11694",
+      "ioValues": []
     }
   ],
   "allConnectors": [
@@ -10230,6 +11585,41 @@
       "ap2Name": "WoodThick",
       "ap1ID": "id-37",
       "ap2ID": "id-11145"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11435"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11472"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11509"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11546"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11583"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11620"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11657"
     },
     {
       "ap2Name": "TopH",
@@ -10452,6 +11842,41 @@
       "ap2ID": "id-11145"
     },
     {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11435"
+    },
+    {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11472"
+    },
+    {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11509"
+    },
+    {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11546"
+    },
+    {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11583"
+    },
+    {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11620"
+    },
+    {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11657"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-10079",
       "ap2ID": "id-10088"
@@ -10627,6 +12052,41 @@
       "ap2ID": "id-11145"
     },
     {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11435"
+    },
+    {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11472"
+    },
+    {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11509"
+    },
+    {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11546"
+    },
+    {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11583"
+    },
+    {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11620"
+    },
+    {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11657"
+    },
+    {
       "ap2Name": "i",
       "ap1ID": "id-11137",
       "ap2ID": "id-11138"
@@ -10642,9 +12102,19 @@
       "ap2ID": "id-11139"
     },
     {
+      "ap2Name": "index",
+      "ap1ID": "id-11138",
+      "ap2ID": "id-11435"
+    },
+    {
       "ap2Name": "i",
       "ap1ID": "id-11139",
       "ap2ID": "id-11140"
+    },
+    {
+      "ap2Name": "index",
+      "ap1ID": "id-11139",
+      "ap2ID": "id-11472"
     },
     {
       "ap2Name": "i",
@@ -10652,9 +12122,19 @@
       "ap2ID": "id-11141"
     },
     {
+      "ap2Name": "index",
+      "ap1ID": "id-11140",
+      "ap2ID": "id-11509"
+    },
+    {
       "ap2Name": "i",
       "ap1ID": "id-11141",
       "ap2ID": "id-11142"
+    },
+    {
+      "ap2Name": "index",
+      "ap1ID": "id-11141",
+      "ap2ID": "id-11546"
     },
     {
       "ap2Name": "i",
@@ -10662,14 +12142,69 @@
       "ap2ID": "id-11143"
     },
     {
+      "ap2Name": "index",
+      "ap1ID": "id-11142",
+      "ap2ID": "id-11583"
+    },
+    {
       "ap2Name": "i",
       "ap1ID": "id-11143",
       "ap2ID": "id-11144"
     },
     {
+      "ap2Name": "index",
+      "ap1ID": "id-11143",
+      "ap2ID": "id-11620"
+    },
+    {
+      "ap2Name": "index",
+      "ap1ID": "id-11144",
+      "ap2ID": "id-11657"
+    },
+    {
       "ap2Name": "Spacing",
       "ap1ID": "id-11424",
       "ap2ID": "id-11145"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11435"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11472"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11509"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11546"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11583"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11620"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11657"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-11694",
+      "ap2ID": "id-10091"
     }
   ],
   "unitsKey": "MM",
