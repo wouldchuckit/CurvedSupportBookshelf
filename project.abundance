@@ -374,8 +374,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.09439050701186623,
-      "y": 0.18706697459584296,
+      "x": 0.10302049622437973,
+      "y": 0.17551963048498845,
       "uniqueID": "id-64",
       "name": "Curve",
       "ioValues": [
@@ -5563,7 +5563,7 @@
       "x": 0.49784250269687164,
       "y": 0.20092378752886836,
       "uniqueID": "id-6769",
-      "name": "ShelfSection",
+      "name": "TopSection",
       "ioValues": [
         {
           "name": "Curve",
