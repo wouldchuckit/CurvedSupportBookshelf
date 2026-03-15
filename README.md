@@ -6,7 +6,14 @@
 
 
 
- ### Curve
+ This is a parametric modular shelf design that can have from 1 to 8 shelves with a top shelf as well. You will need two screws for the front sides of each shelf as well as glue or screws to hold the interlocked back edges together.  
+ 
+
+![readme](/readmeid-11109.svg?v=ccyj9p)
+
+
+
+### Curve
 
 Curve made of two tangent circles for shelf supports. Functions until the length is about 3 times the height.  
 
