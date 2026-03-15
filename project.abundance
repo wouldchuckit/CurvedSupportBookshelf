@@ -2875,8 +2875,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.1558791801510248,
-          "y": 0.18706697459584296,
+          "x": 0.13969795037756202,
+          "y": 0.13856812933025403,
           "uniqueID": "id-7874",
           "ioValues": [
             {
@@ -2908,7 +2908,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1
+              "ioValue": 100
             },
             {
               "name": "yDist",
@@ -3069,8 +3069,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.08505933117583603,
-          "y": 0.7698614318706698,
+          "x": 0.038834951456310676,
+          "y": 0.8060046189376444,
           "uniqueID": "id-7891",
           "name": "TD-CW",
           "ioValues": [
@@ -3087,17 +3087,17 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.1796116504854369,
-          "y": 0.9214780600461893,
+          "x": 0.23570658036677453,
+          "y": 0.09699769053117782,
           "uniqueID": "id-7892",
-          "name": "x",
+          "name": "CW/2",
           "ioValues": [
             {
-              "name": "x",
-              "ioValue": 1
+              "name": "CW",
+              "ioValue": 200
             }
           ],
-          "currentEquation": "x"
+          "currentEquation": "CW/2"
         },
         {
           "atomType": "Equation",
@@ -3649,6 +3649,11 @@
           "ap2Name": "CW",
           "ap1ID": "id-7875",
           "ap2ID": "id-7897"
+        },
+        {
+          "ap2Name": "CW",
+          "ap1ID": "id-7875",
+          "ap2ID": "id-7892"
         },
         {
           "ap2Name": "geometry",
