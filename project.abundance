@@ -3619,7 +3619,7 @@
             {
               "name": "Shape 5",
               "ioValue": {
-                "geometry": "cut-fuse-cut-move-rectangle-200-398.15--100-199.075-0-rotate-move-rectangle-200-1990.75--100-398.15-0-0-0-26.671441893001393-move-rectangle-10-417.2-4.999-189.54999999999998-0-move-circle-248.15427812499996--248.15427812499996-0-0",
+                "geometry": "cut-fuse-cut-move-rectangle-200-398.15--100-199.075-0-rotate-move-rectangle-200-1990.75--100-398.15-0-0-0-26.671441893001393-move-rectangle-0-417.2-4.999-189.54999999999998-0-move-circle-248.15427812499996--248.15427812499996-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -3752,7 +3752,8 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y length",
@@ -3822,7 +3823,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rectangle-10-417.2-4.999-189.54999999999998-0",
+                "geometry": "move-rectangle-0-417.2-4.999-189.54999999999998-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
