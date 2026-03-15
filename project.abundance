@@ -3091,8 +3091,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.825242718446602,
-      "y": 0.7990762124711317,
+      "x": 0.8149946062567421,
+      "y": 0.651270207852194,
       "uniqueID": "id-10094",
       "name": "Cut Layout",
       "ioValues": [
@@ -10099,6 +10099,121 @@
       ],
       "tag": "Shelf",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8754045307443366,
+      "y": 0.6581986143187066,
+      "uniqueID": "id-11086",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "CurvedSupportBookshelf",
+          "currentEquation": "CurvedSupportBookshelf"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "CurvedSupportBookshelf"
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8166127292340885,
+      "y": 0.8752886836027713,
+      "uniqueID": "id-11091",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 4
+        }
+      ],
+      "placements": []
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.8144552319309601,
+      "y": 0.21709006928406466,
+      "uniqueID": "id-11098",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8689320388349514,
+      "y": 0.22170900692840645,
+      "uniqueID": "id-11104",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "CurvedSupportBookshelf",
+          "currentEquation": "CurvedSupportBookshelf"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "CurvedSupportBookshelf"
     }
   ],
   "allConnectors": [
@@ -10463,6 +10578,11 @@
       "ap2ID": "id-10091"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10082",
+      "ap2ID": "id-11098"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-10085",
       "ap2ID": "id-10091"
@@ -10481,6 +10601,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-10091",
       "ap2ID": "id-13"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10094",
+      "ap2ID": "id-11086"
     },
     {
       "ap2Name": "value",
@@ -10586,6 +10711,16 @@
       "ap2Name": "Shape 4",
       "ap1ID": "id-11070",
       "ap2ID": "id-10091"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-11070",
+      "ap2ID": "id-11091"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-11098",
+      "ap2ID": "id-11104"
     }
   ],
   "unitsKey": "MM",
