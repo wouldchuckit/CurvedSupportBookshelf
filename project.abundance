@@ -294,7 +294,7 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.4368932038834952,
+      "x": 0.4433656957928803,
       "y": 0.5057736720554272,
       "uniqueID": "id-5223",
       "ioValues": [
@@ -432,6 +432,129 @@
         }
       ],
       "currentEquation": "TH - TopH"
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.6699029126213593,
+      "y": 0.26096997690531176,
+      "uniqueID": "id-10070",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tagIndex": 0
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.667745415318231,
+      "y": 0.44803695150115475,
+      "uniqueID": "id-10076",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tagIndex": 0
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.6715210355987055,
+      "y": 0.6697459584295612,
+      "uniqueID": "id-10079",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.7303128371089536,
+      "y": 0.24942263279445726,
+      "uniqueID": "id-10082",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.7340884573894283,
+      "y": 0.44803695150115475,
+      "uniqueID": "id-10085",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.7303128371089536,
+      "y": 0.648960739030023,
+      "uniqueID": "id-10088",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8117583603020496,
+      "y": 0.4064665127020785,
+      "uniqueID": "id-10091",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8532901833872707,
+      "y": 0.8198614318706698,
+      "uniqueID": "id-10094",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": []
     },
     {
       "atomType": "Molecule",
@@ -2858,8 +2981,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4962243797195253,
-      "y": 0.8036951501154734,
+      "x": 0.4449838187702266,
+      "y": 0.8660508083140878,
       "uniqueID": "id-7866",
       "name": "BaseSection",
       "ioValues": [
@@ -7454,129 +7577,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.6699029126213593,
-      "y": 0.26096997690531176,
-      "uniqueID": "id-10070",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tagIndex": 0
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.667745415318231,
-      "y": 0.44803695150115475,
-      "uniqueID": "id-10076",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tagIndex": 0
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.6715210355987055,
-      "y": 0.6697459584295612,
-      "uniqueID": "id-10079",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tagIndex": 0
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.7303128371089536,
-      "y": 0.24942263279445726,
-      "uniqueID": "id-10082",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ],
-      "unionType": "Fusion"
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.7340884573894283,
-      "y": 0.44803695150115475,
-      "uniqueID": "id-10085",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ],
-      "unionType": "Fusion"
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.7303128371089536,
-      "y": 0.648960739030023,
-      "uniqueID": "id-10088",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ],
-      "unionType": "Fusion"
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.8117583603020496,
-      "y": 0.4064665127020785,
-      "uniqueID": "id-10091",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.8532901833872707,
-      "y": 0.8198614318706698,
-      "uniqueID": "id-10094",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": []
     }
   ],
   "allConnectors": [
@@ -7921,6 +7921,31 @@
       "ap2ID": "id-9125"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-10070",
+      "ap2ID": "id-10082"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-10085"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-10079",
+      "ap2ID": "id-10088"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-10082",
+      "ap2ID": "id-10091"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10091",
+      "ap2ID": "id-10094"
+    },
+    {
       "ap2Name": "value",
       "ap1ID": "id-64",
       "ap2ID": "id-332"
@@ -8024,31 +8049,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6769",
       "ap2ID": "id-9125"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-10070",
-      "ap2ID": "id-10082"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-10076",
-      "ap2ID": "id-10085"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-10079",
-      "ap2ID": "id-10088"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-10082",
-      "ap2ID": "id-10091"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-10091",
-      "ap2ID": "id-10094"
     }
   ],
   "unitsKey": "MM",
