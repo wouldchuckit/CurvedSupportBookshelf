@@ -35,6 +35,29 @@
         }
       ],
       "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Label",
+      "x": 0.7891046386192018,
+      "y": 0.8057553956834532,
+      "uniqueID": "id-24",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "color",
+          "ioValue": "#dd863b",
+          "currentEquation": "#dd863b"
+        }
+      ],
+      "color": "#6bcfd6"
     }
   ],
   "allConnectors": [],
