@@ -3732,8 +3732,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15803667745415317,
-      "y": 0.5011547344110855,
+      "x": 0.16181229773462785,
+      "y": 0.9260969976905312,
       "uniqueID": "id-478",
       "name": "ShelfSection",
       "ioValues": [
@@ -7399,10 +7399,6 @@
         {
           "name": "Shape 2",
           "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
         }
       ]
     }
@@ -7807,11 +7803,6 @@
       "ap2Name": "ShelfSection",
       "ap1ID": "id-478",
       "ap2ID": "id-5858"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-6769",
-      "ap2ID": "id-9116"
     },
     {
       "ap2Name": "number or geometry",
