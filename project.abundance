@@ -48,7 +48,8 @@
     },
     {
       "name": "VertNumber",
-      "ioValue": 3
+      "ioValue": 5,
+      "currentEquation": "5"
     }
   ],
   "topLevel": true,
@@ -9875,8 +9876,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7184466019417476,
-      "y": 0.8106235565819861,
+      "x": 0.7400215749730312,
+      "y": 0.8244803695150116,
       "uniqueID": "id-11145",
       "name": "VertPosition",
       "ioValues": [
@@ -9885,16 +9886,20 @@
           "ioValue": 1
         },
         {
-          "name": "ShelfSection",
+          "name": "VertPanel",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
+          "name": "Spacing",
+          "ioValue": 200
         },
         {
-          "name": "ShelfNumber",
+          "name": "Vert_Number",
           "ioValue": 5
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
         }
       ],
       "topLevel": false,
@@ -9923,7 +9928,7 @@
           "x": 0.01815,
           "y": 0.176,
           "uniqueID": "id-11148",
-          "name": "ShelfSection",
+          "name": "VertPanel",
           "type": "geometry"
         },
         {
@@ -9931,14 +9936,14 @@
           "x": 0.01815,
           "y": 0.242,
           "uniqueID": "id-11149",
-          "name": "ShelfHeight"
+          "name": "Spacing"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
           "y": 0.308,
           "uniqueID": "id-11150",
-          "name": "ShelfNumber"
+          "name": "Vert_Number"
         },
         {
           "atomType": "Move",
@@ -9966,10 +9971,10 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.337108953613808,
-          "y": 0.6836027713625865,
+          "x": 0.24811218985976266,
+          "y": 0.581986143187067,
           "uniqueID": "id-11152",
-          "name": "SN >= i",
+          "name": "SN > i >1",
           "ioValues": [
             {
               "name": "SN",
@@ -9980,25 +9985,36 @@
               "ioValue": 1
             }
           ],
-          "currentEquation": "SN >= i"
+          "currentEquation": "SN > i >1"
         },
         {
           "atomType": "Equation",
-          "x": 0.42394822006472493,
-          "y": 0.19861431870669746,
+          "x": 0.40884573894282633,
+          "y": 0.46420323325635104,
           "uniqueID": "id-11153",
-          "name": "t * (i-1) * SH",
+          "name": "t *( (i-1) * SP - .5*WT)",
           "ioValues": [
             {
               "name": "i",
               "ioValue": 1
             },
             {
-              "name": "SH",
-              "ioValue": 417.2
+              "name": "SP",
+              "ioValue": 200
+            },
+            {
+              "name": "WT",
+              "ioValue": 19.05
             }
           ],
-          "currentEquation": "t * (i-1) * SH"
+          "currentEquation": "t *( (i-1) * SP - .5*WT)"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-11432",
+          "name": "WoodThick"
         }
       ],
       "allConnectors": [
@@ -10018,7 +10034,7 @@
           "ap2ID": "id-11151"
         },
         {
-          "ap2Name": "SH",
+          "ap2Name": "SP",
           "ap1ID": "id-11149",
           "ap2ID": "id-11153"
         },
@@ -10038,17 +10054,22 @@
           "ap2ID": "id-11153"
         },
         {
-          "ap2Name": "zDist",
+          "ap2Name": "yDist",
           "ap1ID": "id-11153",
           "ap2ID": "id-11151"
+        },
+        {
+          "ap2Name": "WT",
+          "ap1ID": "id-11432",
+          "ap2ID": "id-11153"
         }
       ],
       "fileTypeVersion": 1
     },
     {
       "atomType": "Equation",
-      "x": 0.7416396979503775,
-      "y": 0.9330254041570438,
+      "x": 0.7475728155339807,
+      "y": 0.9399538106235567,
       "uniqueID": "id-11424",
       "name": "TW/VN",
       "ioValues": [
@@ -10058,7 +10079,7 @@
         },
         {
           "name": "VN",
-          "ioValue": 3
+          "ioValue": 5
         }
       ],
       "currentEquation": "TW/VN"
@@ -10129,11 +10150,6 @@
       "ap2Name": "ShelfNumber",
       "ap1ID": "id-22",
       "ap2ID": "id-5858"
-    },
-    {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11145"
     },
     {
       "ap2Name": "TH",
@@ -10211,6 +10227,11 @@
       "ap2ID": "id-7866"
     },
     {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-11145"
+    },
+    {
       "ap2Name": "TopH",
       "ap1ID": "id-40",
       "ap2ID": "id-9131"
@@ -10269,11 +10290,6 @@
       "ap2Name": "ShelfHeight",
       "ap1ID": "id-43",
       "ap2ID": "id-5858"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11145"
     },
     {
       "ap2Name": "ScrewDiameter",
@@ -10431,6 +10447,11 @@
       "ap2ID": "id-10085"
     },
     {
+      "ap2Name": "VertPanel",
+      "ap1ID": "id-10076",
+      "ap2ID": "id-11145"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-10079",
       "ap2ID": "id-10088"
@@ -10571,11 +10592,6 @@
       "ap2ID": "id-5858"
     },
     {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11145"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-6769",
       "ap2ID": "id-9125"
@@ -10604,6 +10620,11 @@
       "ap2Name": "VN",
       "ap1ID": "id-11134",
       "ap2ID": "id-11424"
+    },
+    {
+      "ap2Name": "Vert_Number",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11145"
     },
     {
       "ap2Name": "i",
@@ -10644,6 +10665,11 @@
       "ap2Name": "i",
       "ap1ID": "id-11143",
       "ap2ID": "id-11144"
+    },
+    {
+      "ap2Name": "Spacing",
+      "ap1ID": "id-11424",
+      "ap2ID": "id-11145"
     }
   ],
   "unitsKey": "MM",
