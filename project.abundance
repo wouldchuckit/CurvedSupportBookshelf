@@ -3905,8 +3905,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3236245954692557,
-      "y": 0.8221709006928407,
+      "x": 0.3133764832793959,
+      "y": 0.8314087759815243,
       "uniqueID": "id-5654",
       "name": "ShelfLevel",
       "ioValues": [
@@ -4249,8 +4249,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3133764832793959,
-      "y": 0.6258660508083141,
+      "x": 0.3122977346278317,
+      "y": 0.6212471131639723,
       "uniqueID": "id-5722",
       "name": "ShelfLevel",
       "ioValues": [
@@ -4593,8 +4593,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3209277238403452,
-      "y": 0.40415704387990764,
+      "x": 0.3149946062567422,
+      "y": 0.43187066974595845,
       "uniqueID": "id-5790",
       "name": "ShelfLevel",
       "ioValues": [
@@ -4765,8 +4765,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.28748651564185546,
-      "y": 0.3002309468822171,
+      "x": 0.28640776699029125,
+      "y": 0.3325635103926097,
       "uniqueID": "id-5824",
       "name": "ShelfLevel",
       "ioValues": [
@@ -4937,8 +4937,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3187702265372168,
-      "y": 0.20785219399538107,
+      "x": 0.3117583603020496,
+      "y": 0.22632794457274827,
       "uniqueID": "id-5858",
       "name": "ShelfLevel",
       "ioValues": [
@@ -5109,8 +5109,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.37540453074433655,
-      "y": 0.8775981524249422,
+      "x": 0.3861920172599784,
+      "y": 0.9422632794457275,
       "uniqueID": "id-7866",
       "name": "BaseSection",
       "ioValues": [
@@ -9605,8 +9605,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.5253505933117584,
-      "y": 0.8683602771362586,
+      "x": 0.5215749730312838,
+      "y": 0.8614318706697459,
       "uniqueID": "id-11070",
       "name": "Extract Tag",
       "ioValues": [
@@ -9650,8 +9650,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.918554476806904,
-      "y": 0.22170900692840645,
+      "x": 0.901294498381877,
+      "y": 0.22632794457274827,
       "uniqueID": "id-11098",
       "ioValues": [
         {
@@ -9685,8 +9685,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -9698,7 +9698,7 @@
           "currentEquation": "CurvedSupportBookshelf"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "CurvedSupportBookshelf"
@@ -9729,36 +9729,6 @@
           "ioValue": null
         }
       ]
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.8732470334412081,
-      "y": 0.9237875288683602,
-      "uniqueID": "id-11115",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": []
     },
     {
       "atomType": "Export",
@@ -9799,16 +9769,16 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.6796116504854368,
-      "y": 0.9399538106235567,
+      "x": 0.6639697950377561,
+      "y": 0.9422632794457275,
       "uniqueID": "id-11137",
       "name": "VertIndexONE_1",
       "value": 1
     },
     {
       "atomType": "Equation",
-      "x": 0.6763754045307443,
-      "y": 0.8013856812933026,
+      "x": 0.6634304207119741,
+      "y": 0.815242494226328,
       "uniqueID": "id-11138",
       "name": "i + 1",
       "ioValues": [
@@ -9821,8 +9791,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6769147788565264,
-      "y": 0.697459584295612,
+      "x": 0.6645091693635383,
+      "y": 0.7090069284064665,
       "uniqueID": "id-11139",
       "name": "i + 1",
       "ioValues": [
@@ -9835,8 +9805,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6747572815533981,
-      "y": 0.5912240184757506,
+      "x": 0.6650485436893204,
+      "y": 0.5935334872979214,
       "uniqueID": "id-11140",
       "name": "i + 1",
       "ioValues": [
@@ -9849,8 +9819,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6731391585760518,
-      "y": 0.4618937644341801,
+      "x": 0.6655879180151025,
+      "y": 0.48267898383371827,
       "uniqueID": "id-11141",
       "name": "i + 1",
       "ioValues": [
@@ -9863,8 +9833,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6715210355987055,
-      "y": 0.348729792147806,
+      "x": 0.6666666666666666,
+      "y": 0.3741339491916859,
       "uniqueID": "id-11142",
       "name": "i + 1",
       "ioValues": [
@@ -9877,8 +9847,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6704422869471413,
-      "y": 0.23094688221709006,
+      "x": 0.667745415318231,
+      "y": 0.26096997690531176,
       "uniqueID": "id-11143",
       "name": "i + 1",
       "ioValues": [
@@ -9891,8 +9861,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.667745415318231,
-      "y": 0.11547344110854503,
+      "x": 0.668824163969795,
+      "y": 0.14549653579676675,
       "uniqueID": "id-11144",
       "name": "i + 1",
       "ioValues": [
@@ -9905,10 +9875,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7384034519956849,
-      "y": 0.8314087759815243,
+      "x": 0.7184466019417476,
+      "y": 0.8106235565819861,
       "uniqueID": "id-11145",
-      "name": "ShelfLevel",
+      "name": "VertPosition",
       "ioValues": [
         {
           "name": "index",
@@ -10076,1208 +10046,22 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Molecule",
-      "x": 0.796655879180151,
-      "y": 0.7321016166281755,
-      "uniqueID": "id-11154",
-      "name": "ShelfLevel",
+      "atomType": "Equation",
+      "x": 0.7416396979503775,
+      "y": 0.9330254041570438,
+      "uniqueID": "id-11424",
+      "name": "TW/VN",
       "ioValues": [
         {
-          "name": "index",
-          "ioValue": 2
+          "name": "TW",
+          "ioValue": 1000
         },
         {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 5
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-11155",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-11156",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-11157",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-11158",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-11159",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Move",
-          "x": 0.743797195253506,
-          "y": 0.5103926096997691,
-          "uniqueID": "id-11160",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 417.2
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.337108953613808,
-          "y": 0.6836027713625865,
-          "uniqueID": "id-11161",
-          "name": "SN >= i",
-          "ioValues": [
-            {
-              "name": "SN",
-              "ioValue": 5
-            },
-            {
-              "name": "i",
-              "ioValue": 2
-            }
-          ],
-          "currentEquation": "SN >= i"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.42394822006472493,
-          "y": 0.19861431870669746,
-          "uniqueID": "id-11162",
-          "name": "t * (i-1) * SH",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 2
-            },
-            {
-              "name": "SH",
-              "ioValue": 417.2
-            }
-          ],
-          "currentEquation": "t * (i-1) * SH"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11156",
-          "ap2ID": "id-11161"
-        },
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11156",
-          "ap2ID": "id-11162"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11157",
-          "ap2ID": "id-11160"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-11158",
-          "ap2ID": "id-11162"
-        },
-        {
-          "ap2Name": "SN",
-          "ap1ID": "id-11159",
-          "ap2ID": "id-11161"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11160",
-          "ap2ID": "id-11155"
-        },
-        {
-          "ap2Name": "t",
-          "ap1ID": "id-11161",
-          "ap2ID": "id-11162"
-        },
-        {
-          "ap2Name": "zDist",
-          "ap1ID": "id-11162",
-          "ap2ID": "id-11160"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.7346278317152104,
-      "y": 0.6743648960739029,
-      "uniqueID": "id-11163",
-      "name": "ShelfLevel",
-      "ioValues": [
-        {
-          "name": "index",
+          "name": "VN",
           "ioValue": 3
-        },
-        {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 5
         }
       ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-11164",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-11165",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-11166",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-11167",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-11168",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Move",
-          "x": 0.743797195253506,
-          "y": 0.5103926096997691,
-          "uniqueID": "id-11169",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 834.4
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.337108953613808,
-          "y": 0.6836027713625865,
-          "uniqueID": "id-11170",
-          "name": "SN >= i",
-          "ioValues": [
-            {
-              "name": "SN",
-              "ioValue": 5
-            },
-            {
-              "name": "i",
-              "ioValue": 3
-            }
-          ],
-          "currentEquation": "SN >= i"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.42394822006472493,
-          "y": 0.19861431870669746,
-          "uniqueID": "id-11171",
-          "name": "t * (i-1) * SH",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 3
-            },
-            {
-              "name": "SH",
-              "ioValue": 417.2
-            }
-          ],
-          "currentEquation": "t * (i-1) * SH"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11165",
-          "ap2ID": "id-11170"
-        },
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11165",
-          "ap2ID": "id-11171"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11166",
-          "ap2ID": "id-11169"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-11167",
-          "ap2ID": "id-11171"
-        },
-        {
-          "ap2Name": "SN",
-          "ap1ID": "id-11168",
-          "ap2ID": "id-11170"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11169",
-          "ap2ID": "id-11164"
-        },
-        {
-          "ap2Name": "t",
-          "ap1ID": "id-11170",
-          "ap2ID": "id-11171"
-        },
-        {
-          "ap2Name": "zDist",
-          "ap1ID": "id-11171",
-          "ap2ID": "id-11169"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.7869471413160734,
-      "y": 0.581986143187067,
-      "uniqueID": "id-11172",
-      "name": "ShelfLevel",
-      "ioValues": [
-        {
-          "name": "index",
-          "ioValue": 4
-        },
-        {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 5
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-11173",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-11174",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-11175",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-11176",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-11177",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Move",
-          "x": 0.743797195253506,
-          "y": 0.5103926096997691,
-          "uniqueID": "id-11178",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 1251.6
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.337108953613808,
-          "y": 0.6836027713625865,
-          "uniqueID": "id-11179",
-          "name": "SN >= i",
-          "ioValues": [
-            {
-              "name": "SN",
-              "ioValue": 5
-            },
-            {
-              "name": "i",
-              "ioValue": 4
-            }
-          ],
-          "currentEquation": "SN >= i"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.42394822006472493,
-          "y": 0.19861431870669746,
-          "uniqueID": "id-11180",
-          "name": "t * (i-1) * SH",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 4
-            },
-            {
-              "name": "SH",
-              "ioValue": 417.2
-            }
-          ],
-          "currentEquation": "t * (i-1) * SH"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11174",
-          "ap2ID": "id-11179"
-        },
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11174",
-          "ap2ID": "id-11180"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11175",
-          "ap2ID": "id-11178"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-11176",
-          "ap2ID": "id-11180"
-        },
-        {
-          "ap2Name": "SN",
-          "ap1ID": "id-11177",
-          "ap2ID": "id-11179"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11178",
-          "ap2ID": "id-11173"
-        },
-        {
-          "ap2Name": "t",
-          "ap1ID": "id-11179",
-          "ap2ID": "id-11180"
-        },
-        {
-          "ap2Name": "zDist",
-          "ap1ID": "id-11180",
-          "ap2ID": "id-11178"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.7340884573894283,
-      "y": 0.4942263279445727,
-      "uniqueID": "id-11181",
-      "name": "ShelfLevel",
-      "ioValues": [
-        {
-          "name": "index",
-          "ioValue": 5
-        },
-        {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 5
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-11182",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-11183",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-11184",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-11185",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-11186",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Move",
-          "x": 0.30312837108953616,
-          "y": 0.2678983833718245,
-          "uniqueID": "id-11187",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 1668.8
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.10895361380798274,
-          "y": 0.3233256351039261,
-          "uniqueID": "id-11188",
-          "name": "SN >= i",
-          "ioValues": [
-            {
-              "name": "SN",
-              "ioValue": 5
-            },
-            {
-              "name": "i",
-              "ioValue": 5
-            }
-          ],
-          "currentEquation": "SN >= i"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.18932038834951456,
-          "y": 0.4018475750577367,
-          "uniqueID": "id-11189",
-          "name": "t * (i-1) * SH",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 5
-            },
-            {
-              "name": "SH",
-              "ioValue": 417.2
-            }
-          ],
-          "currentEquation": "t * (i-1) * SH"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11183",
-          "ap2ID": "id-11188"
-        },
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11183",
-          "ap2ID": "id-11189"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11184",
-          "ap2ID": "id-11187"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-11185",
-          "ap2ID": "id-11189"
-        },
-        {
-          "ap2Name": "SN",
-          "ap1ID": "id-11186",
-          "ap2ID": "id-11188"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11187",
-          "ap2ID": "id-11182"
-        },
-        {
-          "ap2Name": "t",
-          "ap1ID": "id-11188",
-          "ap2ID": "id-11189"
-        },
-        {
-          "ap2Name": "zDist",
-          "ap1ID": "id-11189",
-          "ap2ID": "id-11187"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.7664509169363538,
-      "y": 0.394919168591224,
-      "uniqueID": "id-11190",
-      "name": "ShelfLevel",
-      "ioValues": [
-        {
-          "name": "index",
-          "ioValue": 6
-        },
-        {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 5
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-11191",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-11192",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-11193",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-11194",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-11195",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Move",
-          "x": 0.743797195253506,
-          "y": 0.5103926096997691,
-          "uniqueID": "id-11196",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.337108953613808,
-          "y": 0.6836027713625865,
-          "uniqueID": "id-11197",
-          "name": "SN >= i",
-          "ioValues": [
-            {
-              "name": "SN",
-              "ioValue": 5
-            },
-            {
-              "name": "i",
-              "ioValue": 6
-            }
-          ],
-          "currentEquation": "SN >= i"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.42394822006472493,
-          "y": 0.19861431870669746,
-          "uniqueID": "id-11198",
-          "name": "t * (i-1) * SH",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 6
-            },
-            {
-              "name": "SH",
-              "ioValue": 417.2
-            }
-          ],
-          "currentEquation": "t * (i-1) * SH"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11192",
-          "ap2ID": "id-11197"
-        },
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11192",
-          "ap2ID": "id-11198"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11193",
-          "ap2ID": "id-11196"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-11194",
-          "ap2ID": "id-11198"
-        },
-        {
-          "ap2Name": "SN",
-          "ap1ID": "id-11195",
-          "ap2ID": "id-11197"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11196",
-          "ap2ID": "id-11191"
-        },
-        {
-          "ap2Name": "t",
-          "ap1ID": "id-11197",
-          "ap2ID": "id-11198"
-        },
-        {
-          "ap2Name": "zDist",
-          "ap1ID": "id-11198",
-          "ap2ID": "id-11196"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.7286947141316074,
-      "y": 0.3140877598152425,
-      "uniqueID": "id-11199",
-      "name": "ShelfLevel",
-      "ioValues": [
-        {
-          "name": "index",
-          "ioValue": 7
-        },
-        {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 5
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-11200",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-11201",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-11202",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-11203",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-11204",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Move",
-          "x": 0.743797195253506,
-          "y": 0.5103926096997691,
-          "uniqueID": "id-11205",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.337108953613808,
-          "y": 0.6836027713625865,
-          "uniqueID": "id-11206",
-          "name": "SN >= i",
-          "ioValues": [
-            {
-              "name": "SN",
-              "ioValue": 5
-            },
-            {
-              "name": "i",
-              "ioValue": 7
-            }
-          ],
-          "currentEquation": "SN >= i"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.42394822006472493,
-          "y": 0.19861431870669746,
-          "uniqueID": "id-11207",
-          "name": "t * (i-1) * SH",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 7
-            },
-            {
-              "name": "SH",
-              "ioValue": 417.2
-            }
-          ],
-          "currentEquation": "t * (i-1) * SH"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11201",
-          "ap2ID": "id-11206"
-        },
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11201",
-          "ap2ID": "id-11207"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11202",
-          "ap2ID": "id-11205"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-11203",
-          "ap2ID": "id-11207"
-        },
-        {
-          "ap2Name": "SN",
-          "ap1ID": "id-11204",
-          "ap2ID": "id-11206"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11205",
-          "ap2ID": "id-11200"
-        },
-        {
-          "ap2Name": "t",
-          "ap1ID": "id-11206",
-          "ap2ID": "id-11207"
-        },
-        {
-          "ap2Name": "zDist",
-          "ap1ID": "id-11207",
-          "ap2ID": "id-11205"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.7648327939590076,
-      "y": 0.20785219399538107,
-      "uniqueID": "id-11208",
-      "name": "ShelfLevel",
-      "ioValues": [
-        {
-          "name": "index",
-          "ioValue": 8
-        },
-        {
-          "name": "ShelfSection",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "ShelfHeight",
-          "ioValue": 417.2
-        },
-        {
-          "name": "ShelfNumber",
-          "ioValue": 5
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-11209",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-11210",
-          "name": "index"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-11211",
-          "name": "ShelfSection",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
-          "uniqueID": "id-11212",
-          "name": "ShelfHeight"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-11213",
-          "name": "ShelfNumber"
-        },
-        {
-          "atomType": "Move",
-          "x": 0.743797195253506,
-          "y": 0.5103926096997691,
-          "uniqueID": "id-11214",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.337108953613808,
-          "y": 0.6836027713625865,
-          "uniqueID": "id-11215",
-          "name": "SN >= i",
-          "ioValues": [
-            {
-              "name": "SN",
-              "ioValue": 5
-            },
-            {
-              "name": "i",
-              "ioValue": 8
-            }
-          ],
-          "currentEquation": "SN >= i"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.42394822006472493,
-          "y": 0.19861431870669746,
-          "uniqueID": "id-11216",
-          "name": "t * (i-1) * SH",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 8
-            },
-            {
-              "name": "SH",
-              "ioValue": 417.2
-            }
-          ],
-          "currentEquation": "t * (i-1) * SH"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11210",
-          "ap2ID": "id-11215"
-        },
-        {
-          "ap2Name": "i",
-          "ap1ID": "id-11210",
-          "ap2ID": "id-11216"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11211",
-          "ap2ID": "id-11214"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-11212",
-          "ap2ID": "id-11216"
-        },
-        {
-          "ap2Name": "SN",
-          "ap1ID": "id-11213",
-          "ap2ID": "id-11215"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11214",
-          "ap2ID": "id-11209"
-        },
-        {
-          "ap2Name": "t",
-          "ap1ID": "id-11215",
-          "ap2ID": "id-11216"
-        },
-        {
-          "ap2Name": "zDist",
-          "ap1ID": "id-11216",
-          "ap2ID": "id-11214"
-        }
-      ],
-      "fileTypeVersion": 1
+      "currentEquation": "TW/VN"
     }
   ],
   "allConnectors": [
@@ -11352,41 +10136,6 @@
       "ap2ID": "id-11145"
     },
     {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11154"
-    },
-    {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11163"
-    },
-    {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11172"
-    },
-    {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11181"
-    },
-    {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11190"
-    },
-    {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11199"
-    },
-    {
-      "ap2Name": "ShelfNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-11208"
-    },
-    {
       "ap2Name": "TH",
       "ap1ID": "id-25",
       "ap2ID": "id-9131"
@@ -11420,6 +10169,11 @@
       "ap2Name": "TotalWidth",
       "ap1ID": "id-31",
       "ap2ID": "id-7866"
+    },
+    {
+      "ap2Name": "TW",
+      "ap1ID": "id-31",
+      "ap2ID": "id-11424"
     },
     {
       "ap2Name": "BaseHeight",
@@ -11520,41 +10274,6 @@
       "ap2Name": "ShelfHeight",
       "ap1ID": "id-43",
       "ap2ID": "id-11145"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11154"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11163"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11172"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11181"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11190"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11199"
-    },
-    {
-      "ap2Name": "ShelfHeight",
-      "ap1ID": "id-43",
-      "ap2ID": "id-11208"
     },
     {
       "ap2Name": "ScrewDiameter",
@@ -11722,14 +10441,14 @@
       "ap2ID": "id-10091"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-10082",
-      "ap2ID": "id-11098"
-    },
-    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-10085",
       "ap2ID": "id-10091"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10085",
+      "ap2ID": "id-11098"
     },
     {
       "ap2Name": "Shape 3",
@@ -11857,41 +10576,6 @@
       "ap2ID": "id-11145"
     },
     {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11154"
-    },
-    {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11163"
-    },
-    {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11172"
-    },
-    {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11181"
-    },
-    {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11190"
-    },
-    {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11199"
-    },
-    {
-      "ap2Name": "ShelfSection",
-      "ap1ID": "id-478",
-      "ap2ID": "id-11208"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-6769",
       "ap2ID": "id-9125"
@@ -11914,12 +10598,12 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-11111",
-      "ap2ID": "id-11115"
+      "ap2ID": "id-11129"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-11111",
-      "ap2ID": "id-11129"
+      "ap2Name": "VN",
+      "ap1ID": "id-11134",
+      "ap2ID": "id-11424"
     },
     {
       "ap2Name": "i",
@@ -11937,19 +10621,9 @@
       "ap2ID": "id-11139"
     },
     {
-      "ap2Name": "index",
-      "ap1ID": "id-11138",
-      "ap2ID": "id-11154"
-    },
-    {
       "ap2Name": "i",
       "ap1ID": "id-11139",
       "ap2ID": "id-11140"
-    },
-    {
-      "ap2Name": "index",
-      "ap1ID": "id-11139",
-      "ap2ID": "id-11163"
     },
     {
       "ap2Name": "i",
@@ -11957,19 +10631,9 @@
       "ap2ID": "id-11141"
     },
     {
-      "ap2Name": "index",
-      "ap1ID": "id-11140",
-      "ap2ID": "id-11172"
-    },
-    {
       "ap2Name": "i",
       "ap1ID": "id-11141",
       "ap2ID": "id-11142"
-    },
-    {
-      "ap2Name": "index",
-      "ap1ID": "id-11141",
-      "ap2ID": "id-11181"
     },
     {
       "ap2Name": "i",
@@ -11977,24 +10641,9 @@
       "ap2ID": "id-11143"
     },
     {
-      "ap2Name": "index",
-      "ap1ID": "id-11142",
-      "ap2ID": "id-11190"
-    },
-    {
       "ap2Name": "i",
       "ap1ID": "id-11143",
       "ap2ID": "id-11144"
-    },
-    {
-      "ap2Name": "index",
-      "ap1ID": "id-11143",
-      "ap2ID": "id-11199"
-    },
-    {
-      "ap2Name": "index",
-      "ap1ID": "id-11144",
-      "ap2ID": "id-11208"
     }
   ],
   "unitsKey": "MM",
