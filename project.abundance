@@ -2874,13 +2874,13 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.1353829557713053,
-          "y": 0.16166281755196305,
+          "x": 0.19147788565264293,
+          "y": 0.8799076212471131,
           "uniqueID": "id-7874",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 300
+              "ioValue": 600
             },
             {
               "name": "y length",
@@ -2897,8 +2897,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.23176914778856528,
-          "y": 0.07240184757505774,
+          "x": 0.33171521035598706,
+          "y": 0.836027713625866,
           "uniqueID": "id-7876",
           "ioValues": [
             {
@@ -3480,6 +3480,12 @@
           "y": 0.7698614318706698,
           "uniqueID": "id-7922",
           "name": "-y/2",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 96.19
+            }
+          ],
           "currentEquation": "-y/2"
         },
         {
@@ -3589,6 +3595,11 @@
           "ap2ID": "id-7904"
         },
         {
+          "ap2Name": "x length",
+          "ap1ID": "id-7872",
+          "ap2ID": "id-7874"
+        },
+        {
           "ap2Name": "y",
           "ap1ID": "id-7873",
           "ap2ID": "id-7894"
@@ -3682,11 +3693,6 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-7890",
           "ap2ID": "id-7868"
-        },
-        {
-          "ap2Name": "x length",
-          "ap1ID": "id-7891",
-          "ap2ID": "id-7874"
         },
         {
           "ap2Name": "x",
@@ -7486,6 +7492,22 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5943905070118662,
+      "y": 0.6397228637413395,
+      "uniqueID": "id-9116",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -7790,6 +7812,11 @@
       "ap2ID": "id-8168"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-8168",
+      "ap2ID": "id-9116"
+    },
+    {
       "ap2Name": "value",
       "ap1ID": "id-64",
       "ap2ID": "id-332"
@@ -7843,6 +7870,11 @@
       "ap2Name": "Shape 8",
       "ap1ID": "id-5858",
       "ap2ID": "id-5223"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-7866",
+      "ap2ID": "id-9116"
     },
     {
       "ap2Name": "ShelfSection",
