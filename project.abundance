@@ -3129,22 +3129,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.5690399137001079,
-          "y": 0.21247113163972287,
-          "uniqueID": "id-7897",
-          "name": "-CW/2",
-          "ioValues": [
-            {
-              "name": "CW",
-              "ioValue": 200
-            }
-          ],
-          "currentEquation": "-CW/2"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.5462243797195253,
-          "y": 0.34722863741339494,
+          "x": 0.5738942826321467,
+          "y": 0.34180138568129326,
           "uniqueID": "id-7899",
           "name": "-WT/2",
           "ioValues": [
@@ -3157,8 +3143,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.7657497303128372,
-          "y": 0.8899538106235566,
+          "x": 0.5253505933117584,
+          "y": 0.8637413394919169,
           "uniqueID": "id-7901",
           "ioValues": [
             {
@@ -3173,8 +3159,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.8018878101402374,
-          "y": 0.8853348729792148,
+          "x": 0.5862998921251349,
+          "y": 0.8545034642032332,
           "uniqueID": "id-7902",
           "ioValues": [
             {
@@ -3189,8 +3175,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.8396440129449838,
-          "y": 0.878406466512702,
+          "x": 0.6483279395900755,
+          "y": 0.8452655889145496,
           "uniqueID": "id-7903",
           "ioValues": [
             {
@@ -3231,8 +3217,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.9248651564185546,
-          "y": 0.7952655889145496,
+          "x": 0.8171521035598706,
+          "y": 0.7575057736720554,
           "uniqueID": "id-7905",
           "ioValues": [
             {
@@ -3247,8 +3233,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.9653182308522116,
-          "y": 0.8807159353348729,
+          "x": 0.8770226537216828,
+          "y": 0.7113163972286374,
           "uniqueID": "id-7906",
           "name": "Back",
           "ioValues": [
@@ -3263,8 +3249,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7998921251348435,
-          "y": 0.5866050808314087,
+          "x": 0.7659115426105717,
+          "y": 0.6004618937644342,
           "uniqueID": "id-7907",
           "ioValues": [
             {
@@ -3335,8 +3321,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.8779395900755124,
-          "y": 0.8807159353348729,
+          "x": 0.7378640776699028,
+          "y": 0.8568129330254042,
           "uniqueID": "id-7911",
           "ioValues": [
             {
@@ -3359,8 +3345,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.6001618122977347,
-          "y": 0.344919168591224,
+          "x": 0.5722761596548004,
+          "y": 0.21939953810623555,
           "uniqueID": "id-7912",
           "name": "-y",
           "ioValues": [
@@ -3458,70 +3444,6 @@
           ]
         },
         {
-          "atomType": "Equation",
-          "x": 0.4723300970873786,
-          "y": 0.7721709006928407,
-          "uniqueID": "id-7918",
-          "name": "(TW- 2*WT)/10",
-          "ioValues": [
-            {
-              "name": "TW",
-              "ioValue": 1000
-            },
-            {
-              "name": "WT",
-              "ioValue": 19.05
-            }
-          ],
-          "currentEquation": "(TW- 2*WT)/10"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.5570118662351673,
-          "y": 0.7698614318706698,
-          "uniqueID": "id-7922",
-          "name": "-y/2",
-          "ioValues": [
-            {
-              "name": "y",
-              "ioValue": 96.19
-            }
-          ],
-          "currentEquation": "-y/2"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.6228155339805825,
-          "y": 0.7790993071593533,
-          "uniqueID": "id-7924",
-          "name": "(2*TW/10) + i*(2*TW/10)",
-          "ioValues": [
-            {
-              "name": "TW",
-              "ioValue": 1000
-            },
-            {
-              "name": "i",
-              "ioValue": 1
-            }
-          ],
-          "currentEquation": "(2*TW/10) + i*(2*TW/10)"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.695631067961165,
-          "y": 0.7744803695150115,
-          "uniqueID": "id-7926",
-          "name": "5*TW/10",
-          "ioValues": [
-            {
-              "name": "TW",
-              "ioValue": 1000
-            }
-          ],
-          "currentEquation": "5*TW/10"
-        },
-        {
           "atomType": "Input",
           "x": 0.01815,
           "y": 0.506,
@@ -3576,11 +3498,6 @@
           "ap2ID": "id-7915"
         },
         {
-          "ap2Name": "WT",
-          "ap1ID": "id-7871",
-          "ap2ID": "id-7918"
-        },
-        {
           "ap2Name": "y length",
           "ap1ID": "id-7871",
           "ap2ID": "id-7908"
@@ -3621,21 +3538,6 @@
           "ap2ID": "id-7914"
         },
         {
-          "ap2Name": "TW",
-          "ap1ID": "id-7873",
-          "ap2ID": "id-7918"
-        },
-        {
-          "ap2Name": "TW",
-          "ap1ID": "id-7873",
-          "ap2ID": "id-7924"
-        },
-        {
-          "ap2Name": "TW",
-          "ap1ID": "id-7873",
-          "ap2ID": "id-7926"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-7874",
           "ap2ID": "id-7876"
@@ -3644,11 +3546,6 @@
           "ap2Name": "CW",
           "ap1ID": "id-7875",
           "ap2ID": "id-7891"
-        },
-        {
-          "ap2Name": "CW",
-          "ap1ID": "id-7875",
-          "ap2ID": "id-7897"
         },
         {
           "ap2Name": "CW",
@@ -3829,11 +3726,6 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-7916",
           "ap2ID": "id-7907"
-        },
-        {
-          "ap2Name": "y",
-          "ap1ID": "id-7918",
-          "ap2ID": "id-7922"
         }
       ],
       "fileTypeVersion": 1
@@ -7507,6 +7399,10 @@
         {
           "name": "Shape 2",
           "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
       ]
     }
@@ -7911,6 +7807,11 @@
       "ap2Name": "ShelfSection",
       "ap1ID": "id-478",
       "ap2ID": "id-5858"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-6769",
+      "ap2ID": "id-9116"
     },
     {
       "ap2Name": "number or geometry",
