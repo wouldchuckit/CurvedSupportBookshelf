@@ -3118,7 +3118,18 @@
           "ioValue": 4
         }
       ],
-      "placements": []
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 1148.2,
+              "y": 505.2
+            }
+          }
+        ]
+      ]
     },
     {
       "atomType": "Molecule",
