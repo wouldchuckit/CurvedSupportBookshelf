@@ -22,7 +22,7 @@ Tis is also a patch for the edge when it gets too thin to a single point.
 
 This is single point patch to cover the inflection point where the two circles meet. The Circles worked independently but when they were both trying to act on the same point it crashed 
 
-![readme](/readmeid-301.svg?v=g5gd21)
+![readme](/readmeid-301.svg?v=mem899)
 
 
 
@@ -32,7 +32,7 @@ This shelf stack is currently designed to go from 1 to 8 shelves. You could add 
 
 Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height 
 
-![readme](/readmeid-332.svg?v=1mzkom)
+![readme](/readmeid-332.svg?v=ccyj9p)
 
 
 
