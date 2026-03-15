@@ -2908,7 +2908,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 200
+              "ioValue": 1
             },
             {
               "name": "yDist",
@@ -3087,17 +3087,17 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.22006472491909385,
-          "y": 0.18937644341801385,
+          "x": 0.1796116504854369,
+          "y": 0.9214780600461893,
           "uniqueID": "id-7892",
-          "name": "x/2",
+          "name": "x",
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 400
+              "ioValue": 1
             }
           ],
-          "currentEquation": "x/2"
+          "currentEquation": "x"
         },
         {
           "atomType": "Equation",
@@ -3694,11 +3694,6 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-7890",
           "ap2ID": "id-7868"
-        },
-        {
-          "ap2Name": "x",
-          "ap1ID": "id-7891",
-          "ap2ID": "id-7892"
         },
         {
           "ap2Name": "X",
