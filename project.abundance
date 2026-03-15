@@ -17,6 +17,47 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7081984897518878,
+      "y": 0.812933025404157,
+      "uniqueID": "id-20",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Label",
+      "x": 0.7885652642934197,
+      "y": 0.8314087759815243,
+      "uniqueID": "id-24",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "color",
+          "ioValue": "#dd863b",
+          "currentEquation": "#dd863b"
+        }
+      ],
+      "color": "#6bcfd6"
     }
   ],
   "allConnectors": [],
